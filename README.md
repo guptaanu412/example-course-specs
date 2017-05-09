@@ -1,4 +1,4 @@
-# Supervised Learning with scikit-learn
+# Supervised Learning with scikit-learn [EXAMPLE]
 
 ## Description
 
