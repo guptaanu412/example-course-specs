@@ -17,14 +17,3 @@ At the end of day, the value of Data Scientists rests on their ability to descri
 * Intro to Python for Data Science
 * Intermediate Python for Data Science
 * Statistical Thinking in Python (Part 1)
-
-## Requirements
-
-```sh
-pip3 install scipy==0.18.1
-pip3 install numpy==1.12.1
-pip3 install pandas==0.19.2
-pip3 install scikit-learn==0.18.1
-pip3 install seaborn==0.7.1
-```
-
