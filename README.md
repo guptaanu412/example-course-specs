@@ -1,5 +1,3 @@
----
----
 # Introduction to the Unix Shell for Data Science
 
 *This document proposes a new format for DataCamp course outlines
