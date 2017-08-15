@@ -228,7 +228,7 @@ then itemize the extra skills those exercises depend on,
 and repeat until only prerequisite skills are left.*
 
 *Output: a set of formative assessments that exercise all the skills you intend to teach.
-These will help communicate the concrete goals of the course to other instructors,
+These will help communicate the concrete goals of the course to others,
 and help you uncover dependencies you didn't realize you had.*
 
 ### Formative Exercise: Shell Scripts
