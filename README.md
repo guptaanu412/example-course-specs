@@ -221,23 +221,95 @@ and to give learners a chance to exercise the skills and knowledge
 they will need in the summative assessment.*
 
 *In order to create formative assessments,
-you'll work backward from the summative assessment written in Step 2.*
+you'll work backward from the summative assessment written in Step 2.
+Make a point-form list of the skills needed to solve the summative assessment
+and create a formative assessment for each,
+then itemize the extra skills those exercises depend on,
+and repeat until only prerequisite skills are left.*
 
-*Output: 2-3 formative assessments for each chapter of the course.
-As with the summative assessments,
-their purpose is to communicate concrete goals of the course.*
+*Output: a set of formative assessments that exercise all the skills you intend to teach.
+These will help communicate the concrete goals of the course to others,
+and help you uncover dependencies you didn't realize you had.*
 
-### Formative Exercise 1: The Shell vs. GUIs
+### Formative Exercise: Shell Scripts
 
-What is the relationship between the shell
-and graphical file explorer that most people use?
+Fill in the blanks in the shell script `dates.sh`
+to select unique dates from the files
+whose names are given as the script's command-line arguments.
 
-1. The file explorer lets you view and edit files, while the shell lets you run programs.
-2. The file explorer is built on top of the shell.
-3. The shell is part of the operating system, while the file explorer is separate.
-4. They are both interfaces for issuing commands to the operating system.
+Uses:
+- command-line arguments
+- pipes
+- wildcards
+- `cut`, `sort`, `uniq`
+- `#!`
 
-### Formative Exercise 2: Manipulating Files and Directories
+### Formative Exercise: Wildcards
+
+Suppose you want to delete the output files in the `results` directory
+and any raw files that have mistakenly been copied into the current directory
+without deleting anything else.
+The raw files' names end in `.dat` and the processed files' names end in `.out`.
+Which of the following would do what you want?
+
+1. `rm results/* .raw`
+2. `rm results/*.out ~/*.raw`
+3. `rm *.dat ?/*.out`
+4. `rm ./*.dat results/*.out`
+
+Uses:
+- paths
+- `*` and `?` wildcards
+
+### Formative Exercise: Tracing Pipes and Redirection
+
+A file called `dental.csv` contains the following data:
+
+```
+2017-05-05,incisor
+2017-05-05,bicuspid
+2017-05-05,molar
+2017-05-06,bicuspid
+2017-05-06,incisor
+2017-05-06,premolar
+2017-05-07,bicuspid
+2017-05-07,crown
+```
+
+What text passes through each of the pipes and the final redirect in the pipeline below?
+
+```
+$ cat dental.csv | head -n 5 | tail -n 3 | sort -t , -k 2 > final.txt
+```
+
+Uses:
+- `cat`, `head`, `tail`, `sort`
+- pipes
+- redirection
+- command flags
+
+### Formative Exercise: Selecting Data by Value
+
+A file called `dental.csv` contains 2000 lines formatted as follows:
+
+```
+2017,incisor
+2017,bicuspid
+2016,bicuspid
+2016,premolar
+2015,bicuspid
+2015,crown
+...
+2000,bicuspid
+2000,premolar
+```
+
+Write a command that selects *only* the data from the years 2000, 2005, and 2010.
+
+Uses:
+- `grep` (with fixed text, not regualr expressions)
+
+### Formative Exercise: Manipulating Files and Directories
 
 What is the output of the final `ls` command in the sequence shown below?
 
@@ -259,60 +331,24 @@ $ ls
 3. `mortality.dat old`
 4. `mortality-saved.dat`
 
-### Formative Exercise 3: Selecting Data by Value
+Uses:
+- `pwd`, `ls`, `cp`, `mv`, `mkdir`
+- paths
+- the special path `..`
 
-Write a command that selects *only* the date and name fields (columns 2 and 3)
-from each record in `mortality.txt`.
+### Formative Exercise: The Shell vs. GUIs
 
-### Formative Exercise 4: Selecting Data by Field
+What is the relationship between the shell
+and the graphical file explorer that most people use?
 
-Write a command that selects *only* the data from the years 2000, 2005, and 2010
-from `mortality.txt`.
+1. The file explorer lets you view and edit files, while the shell lets you run programs.
+2. The file explorer is built on top of the shell.
+3. The shell is part of the operating system, while the file explorer is separate.
+4. They are both interfaces for issuing commands to the operating system.
 
-### Formative Exercise 5: Creating Pipes
-
-Using pipes to combine two or more basic commands,
-write a single-line command that displays unique dates in `mortality.txt`.
-
-### Formative Exercise 6: Tracing Pipes and Redirection
-
-A file called `animals.txt` contains the following data:
-
-```
-2012-11-05,deer
-2012-11-05,rabbit
-2012-11-05,raccoon
-2012-11-06,rabbit
-2012-11-06,deer
-2012-11-06,fox
-2012-11-07,rabbit
-2012-11-07,bear
-```
-
-What text passes through each of the pipes and the final redirect in the pipeline below?
-
-```
-$ cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt
-```
-
-### Formative Exercise 7: Wildcards
-
-Suppose you want to delete your processed data files,
-and only keep your raw files and processing script to save storage.
-The raw files end in `.dat` and the processed files end in `.txt`.
-Which of the following would remove all the processed data files,
-and *only* the processed data files?
-
-1. `rm ?.txt`
-2. `rm *.txt`
-3. `rm * .txt`
-4. `rm *.*`
-
-### Formative Exercise 8: Shell Scripts
-
-Fill in the blanks in the shell script `dates.sh`
-to select unique dates from a single file
-whose name is given as the script's sole command-line argument.
+Uses:
+- the difference between an interface to an OS and the OS itself
+- the idea of a filesystem
 
 ## Step 4: Course Outline
 
@@ -325,21 +361,22 @@ and each lesson has a handful of keywords describing what it will cover.*
 
 *Output: an instructional sequence.*
 
-The formative assessments in Step 3 are already in order.
+The formative assessments in Step 3 are already in reverse order.
 The chapter and lesson outline is:
 
 1. Manipulating Files and Directories
    1. What a shell is; how it compares to a graphical interface.
-   2. `whoami`; `pwd`; files vs. directories
-   3. `ls`; `cp`; `mv`; `rm`
-   4. `cat`; `nano`
-   5. `mkdir`; `rmdir`
+   2. `whoami`; `pwd`; `ls`; files vs. directories
+   3. `cp`; `mv`; `rm`
+   4. The special paths `.` and `..`
+   5. `cat`; editing text files with tools like `nano`
+   6. `mkdir`; `rmdir`
 2. Manipulating Data
    1. `head`; `tail`; command-line flags
    2. `man`
    3. `cut`
    4. `history`; `!number` and `!command`
-   4. `grep`; single-quoting
+   4. `grep`; single-quoting arguments to protect special characters
    5. `uniq`; `sort`
 3. Combining Tools
    1. Redirection with `>`
@@ -347,17 +384,19 @@ The chapter and lesson outline is:
    3. Using the `*` and `?` wildcards
 4. Automating Repeated Tasks
    1. Storing commands in files; running files with `bash script.sh`
-   2. Permissions; changing permissions; using `!#`
+   2. Permissions; `ls -l`; changing permissions; using `!#`
    3. Using positional arguments `$1`, `$2`, etc.
    4. Using `$@`
+   5. Teaser for the next course in the sequence (shell loops and SSH)
 
 ## Step 5: Course Overview
 
-*You're now ready to write the course's learning objectives,
-to write a short blurb for the course,
-and to specify the course's prerequisites.
-Doing this earlier often wastes effort,
-since material may be added or cut in Step 4.*
+*You're now ready to write the course's public interface:
+its learning objectives,
+a short blurb for the course catalog,
+and its prerequisites.
+(Doing this earlier often wastes effort,
+since material may be added or cut in Step 4.)*
 
 *Output: learning objectives, course overview, and prerequisites.*
 
@@ -373,13 +412,40 @@ that may be halfway around the world.
 This course will introduce its key elements
 and show you how to use them efficiently.
 
+> **Writing Good Learning Objectives**
+>
+> To write a good learning objective:
+>
+> 1. Identify the *main noun* (the thing you want learners to master).
+> 2. Identify the *level of understanding* you want (discussed below).
+> 3. Select an *observable verb*.
+>    "Learner will understand X" isn't observable (at least, not until telepathy is productized),
+>    but "learner will describe key points in the development of X" is.
+>
+> The most widely used classification of levels of understanding is [Bloom's Taxonomy][bloom].
+> Its six levels and associated verbs are:
+>
+> 1. Knowledge: recalling learned information
+>    (name, define, recall).
+> 2. Comprehension: explaining the meaning of information
+>    (restate, locate, explain, recognize).
+> 3. Application: applying what one knows to novel, concrete situations
+>    (apply, demonstrate, use).
+> 4. Analysis: breaking down a whole into its component parts
+>    and explaining how each part contributes to the whole
+>    (differentiate, criticize, compare).
+> 5. Synthesis: assembling components to form a new and integrated whole
+>    (design, construct, organize).
+> 6. Evaluation: using evidence to make judgments about the relative merits of ideas and materials
+>    (choose, rate, select).
+
 **Learning Objectives**
 
 - Explain the similarities and differences between the Unix shell and graphical user interfaces.
-- Demonstrate fluency with core Unix commands.
+- Use core Unix commands to create, rename, and remove files and directories.
 - Explain what files and directories are.
 - Match files and directories to relative and absolute paths.
-- Demonstrate fluency with basic data manipulation commands.
+- Use core data manipulation commands to filter and sort textual data by position and value.
 - Find and interpret help.
 - Predict the paths matched by wildcards and specify wildcards to match sets of paths.
 - Combine programs using pipes to process large data sets.
@@ -410,6 +476,7 @@ you may add, move, or remove some specific lesson items after you begin writing 
 (though we must approve any signficant structural changes to the course).
 
 [abela-chart]: http://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
+[bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
 [concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
 [developer-roadmap]: https://github.com/kamranahmedse/developer-roadmap
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
