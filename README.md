@@ -359,7 +359,11 @@ You'll then create a point-form outline of chapters and lessons:
 each chapter has a title and 3-5 lessons,
 and each lesson has a handful of keywords describing what it will cover.*
 
-*Output: an instructional sequence.*
+*This is also when you will consolidate the datasets your formative assessments have used.
+It is common to double back and change assessments so that they can share datasets,
+and/or to modify datasets to make them shareable.*
+
+*Output: an instructional sequence and dataset summary.*
 
 The formative assessments in Step 3 are already in reverse order.
 The chapter and lesson outline is:
@@ -388,6 +392,11 @@ The chapter and lesson outline is:
    3. Using positional arguments `$1`, `$2`, etc.
    4. Using `$@`
    5. Teaser for the next course in the sequence (shell loops and SSH)
+
+The datasets are:
+
+- `./dental.csv`: two-column year and tooth data
+- `./data/*.csv': seasonal dental data ('autumn.csv', 'spring.csv', 'summer.csv', 'winter.csv')
 
 ## Step 5: Course Overview
 
