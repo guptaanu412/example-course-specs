@@ -371,10 +371,11 @@ The chapter and lesson outline is:
 1. Manipulating Files and Directories
    1. What a shell is; how it compares to a graphical interface.
    2. `whoami`; `pwd`; `ls`; files vs. directories
-   3. `cp`; `mv`; `rm`
-   4. The special paths `.` and `..`
-   5. `cat`; editing text files with tools like `nano`
-   6. `mkdir`; `rmdir`
+   3. cd; the special paths `.` and `..`
+   4. `cat`; editing text files with tools like `nano`
+   5. `cp`
+   6. `mv`; `rm`
+   7. `mkdir`; `rmdir`
 2. Manipulating Data
    1. `head`; `tail`; command-line flags
    2. `man`
