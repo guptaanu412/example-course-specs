@@ -8,6 +8,9 @@ Feedback would be greatly appreciated.*
 
 ## Step 0: Learner Profiles
 
+**Note:** these profiles have been moved to [this repository][profile-site]
+and are being expanded there.**
+
 *Terms like "beginner" and "expert" mean different things to different people,
 so these profiles make the course's intended audience concrete.
 Profiles typically have [five parts][learner-profiles]:
@@ -381,12 +384,12 @@ The chapter and lesson outline is:
    2. `man`
    3. `cut`
    4. `history`; `!number` and `!command`
-   4. `grep`; single-quoting arguments to protect special characters
-   5. `uniq`; `sort`
+   5. `grep`; single-quoting arguments to protect special characters
 3. Combining Tools
    1. Redirection with `>`
    2. Piping with `|`
-   3. Using the `*` and `?` wildcards
+   4. Using the `*` and `?` wildcards
+   3. `uniq`; `sort`
 4. Automating Repeated Tasks
    1. Storing commands in files; running files with `bash script.sh`
    2. Permissions; `ls -l`; changing permissions; using `!#`
@@ -491,6 +494,7 @@ you may add, move, or remove some specific lesson items after you begin writing 
 [developer-roadmap]: https://github.com/kamranahmedse/developer-roadmap
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
 [parnas-clements]: http://ieeexplore.ieee.org/document/6312940/
+[profile-site]: https://github.com/datacamp/learner-profiles
 [robohash]: http://robohash.org
 [robust-software]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
