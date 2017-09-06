@@ -8,7 +8,7 @@ Feedback would be greatly appreciated.
 
 </em>
 
-## Step 0: Learner Profiles
+## Step 1: Learner Profiles
 
 <em>
 
@@ -79,7 +79,7 @@ Output: brief descriptions of intended audience.
    and use remote computing resources (such as clusters),
    and is a step toward building [robust software][robust-software].
 
-## Step 1: Concept Map
+## Step 2: Concept Map
 
 <em>
 
@@ -100,7 +100,7 @@ Notes:
 
 1. It's tempting to write learning objectives at this point.
    Resist!
-   Step 4 will almost certainly result in material being cut.
+   Step 5 (Course Outline) will almost certainly result in material being cut.
 
 2. If this is your first time creating a concept map, 
    you may struggle with this step.
@@ -108,7 +108,7 @@ Notes:
 
 </em>
 
-## Step 2: Summative Assessment
+## Step 3: Summative Assessment
 
 <em>
 
@@ -232,7 +232,7 @@ Notes:
 
 </em>
 
-## Step 3: Formative Assessments
+## Step 4: Formative Assessments
 
 <em>
 
@@ -245,7 +245,7 @@ and to give learners a chance to exercise the skills and knowledge
 they will need in the summative assessment.
 
 In order to create formative assessments,
-you'll work backward from the summative assessment written in Step 2.
+you'll work backward from the summative assessment written in Step 3 (Summative Assessment).
 Make a point-form list of the skills needed to solve the summative assessment
 and create a formative assessment for each,
 then itemize the extra skills those exercises depend on,
@@ -376,7 +376,7 @@ Uses:
 - the difference between an interface to an OS and the OS itself
 - the idea of a filesystem
 
-## Step 4: Course Outline
+## Step 5: Course Outline
 
 <em>
 
@@ -395,7 +395,7 @@ Output: an instructional sequence and dataset summary.
 
 </em>
 
-The formative assessments in Step 3 are already in reverse order.
+The formative assessments in Step 4 (Formative Assessments) are already in reverse order.
 The chapter and lesson outline is:
 
 1. Manipulating Files and Directories
@@ -429,7 +429,7 @@ The datasets are:
 - `./dental.csv`: two-column year and tooth data
 - `./data/*.csv': seasonal dental data ('autumn.csv', 'spring.csv', 'summer.csv', 'winter.csv')
 
-## Step 5: Course Overview
+## Step 6: Course Overview
 
 <em>
 
@@ -437,8 +437,8 @@ You're now ready to write the course's public interface:
 its learning objectives,
 a short blurb for the course catalog,
 and its prerequisites.
-(Doing this earlier often wastes effort,
-since material may be added or cut in Step 4.)
+Doing this earlier often wastes effort,
+since material may be added or cut in Step 5 (Course Outline).
 
 Output: learning objectives, course overview, and prerequisites.
 
