@@ -8,6 +8,8 @@ Feedback would be greatly appreciated.*
 
 ## Step 0: Learner Profiles
 
+<em>
+
 **Note:** these profiles have been moved to [this repository][profile-site]
 and are being expanded there.**
 
@@ -24,11 +26,11 @@ particular course outlines will reference these and add the fifth.*
 
 *Output: brief descriptions of intended audience.*
 
-(Images courtesy of [RoboHash][robohash].)
+</em>
 
-**Jasmine**
+### Jasmine
 
-![Jasmine](img/jasmine.png)
+<img alt="Jasmine" src="img/jasmine.png" height="150" width="150" />
 
 1. Jasmine, 28, did a commerce degree at the University of North Carolina,
    and then an MBA at Georgia State.
@@ -52,9 +54,9 @@ particular course outlines will reference these and add the fifth.*
    so that she can help her students solve the problems they encounter
    using the university's systems in their statistics courses.
 
-**Thanh**
+### Thanh
 
-![Thanh](img/thanh.png)
+<img alt="Thanh" src="img/thanh.png" height="150" width="150" />
 
 1. Thanh, 35, has an undergraduate degree in psychology with a minor in statistics.
    He now works for the Quebec Ministry of Education,
