@@ -111,13 +111,17 @@ Notes:
 
 ## Step 2: Summative Assessment
 
-*The best way to make the goal of a course concrete is
+<em>
+
+The best way to make the goal of a course concrete is
 to present examples of what learners will be able to do at its end.
 This is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
-designers work backward from concrete examples of where their learners are going.*
+designers work backward from concrete examples of where their learners are going.
 
-*Output: 2-3 exercises that use all of the skills the learner is to develop.*
+Output: 2-3 exercises that use all of the skills the learner is to develop.
+
+</em>
 
 ### Summative Exercise 1: Shell Scripts
 
@@ -216,35 +220,43 @@ echo $@.csv
 > the expression `$@` expands to the names of the command-line arguments,
 > and then the explicit `.csv` in the script is tacked on.
 
-*Notes:*
+<em>
 
-1. *These summative assessments will normally be included in the course
-   as its final exercises.*
+Notes:
 
-2. *If we find this approach productive,
+1. These summative assessments will normally be included in the course
+   as its final exercises.
+
+2. If we find this approach productive,
    we may eventually stitch these concept maps together
    to create something like Kamran Ahmed's [developer roadmap][developer-roadmap].
 
+</em>
+
 ## Step 3: Formative Assessments
 
-*Formative assessments are exercises done while learning is taking place,
+<em>
+
+Formative assessments are exercises done while learning is taking place,
 rather than at the end to determine whether it has.
 Formative assessments serve two purposes:
 to tell the learner and the instructor if learners are making progress
 (or conversely, what they still need to work on),
 and to give learners a chance to exercise the skills and knowledge
-they will need in the summative assessment.*
+they will need in the summative assessment.
 
-*In order to create formative assessments,
+In order to create formative assessments,
 you'll work backward from the summative assessment written in Step 2.
 Make a point-form list of the skills needed to solve the summative assessment
 and create a formative assessment for each,
 then itemize the extra skills those exercises depend on,
-and repeat until only prerequisite skills are left.*
+and repeat until only prerequisite skills are left.
 
-*Output: a set of formative assessments that exercise all the skills you intend to teach.
+Output: a set of formative assessments that exercise all the skills you intend to teach.
 These will help communicate the concrete goals of the course to others,
-and help you uncover dependencies you didn't realize you had.*
+and help you uncover dependencies you didn't realize you had.
+
+</em>
 
 ### Formative Exercise: Shell Scripts
 
@@ -367,18 +379,22 @@ Uses:
 
 ## Step 4: Course Outline
 
-*In this stage,
+<em>
+
+In this stage,
 formative assessments are put in an order that respects their dependencies.
 This is the point at which you'll discover all the dependencies you forgot to list earlier.
 You'll then create a point-form outline of chapters and lessons:
 each chapter has a title and 3-5 lessons,
-and each lesson has a handful of keywords describing what it will cover.*
+and each lesson has a handful of keywords describing what it will cover.
 
-*This is also when you will consolidate the datasets your formative assessments have used.
+This is also when you will consolidate the datasets your formative assessments have used.
 It is common to double back and change assessments so that they can share datasets,
-and/or to modify datasets to make them shareable.*
+and/or to modify datasets to make them shareable.
 
-*Output: an instructional sequence and dataset summary.*
+Output: an instructional sequence and dataset summary.
+
+</em>
 
 The formative assessments in Step 3 are already in reverse order.
 The chapter and lesson outline is:
@@ -416,14 +432,18 @@ The datasets are:
 
 ## Step 5: Course Overview
 
-*You're now ready to write the course's public interface:
+<em>
+
+You're now ready to write the course's public interface:
 its learning objectives,
 a short blurb for the course catalog,
 and its prerequisites.
 (Doing this earlier often wastes effort,
-since material may be added or cut in Step 4.)*
+since material may be added or cut in Step 4.)
 
-*Output: learning objectives, course overview, and prerequisites.*
+Output: learning objectives, course overview, and prerequisites.
+
+</em>
 
 **Course Description**
 
@@ -502,6 +522,8 @@ you may add, move, or remove some specific lesson items after you begin writing 
 
 ## Sources
 
+* Huston's *[Teaching What You Don't Know][huston-teaching]*
+* Lang's *[Small Teaching][lang-teaching]*
 * Software Carpentry's [instructor training program][swc-teaching]
 * Wiggins & McTighe's *[Understanding by Design][ubd]*
 * Wilson's *[How to Teach Programming (and Other Things)][wilson-teaching]*
@@ -510,6 +532,8 @@ you may add, move, or remove some specific lesson items after you begin writing 
 [bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
 [concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
 [developer-roadmap]: https://github.com/kamranahmedse/developer-roadmap
+[huston-teaching]: https://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674035801/
+[lang-teaching]: https://www.amazon.com/Small-Teaching-Everyday-Lessons-Learning/dp/1118944496/
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
 [parnas-clements]: http://ieeexplore.ieee.org/document/6312940/
 [profile-site]: https://github.com/datacamp/learner-profiles
