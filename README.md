@@ -12,9 +12,6 @@ Feedback would be greatly appreciated.
 
 <em>
 
-**Note: these profiles have been moved to [this repository][profile-site]
-and are being expanded there.**
-
 Terms like "beginner" and "expert" mean different things to different people,
 so these profiles make the course's intended audience concrete.
 Profiles typically have [five parts][learner-profiles]:
@@ -27,6 +24,8 @@ DataCamp will have a handful of stock profiles that define the first four points
 particular course outlines will reference these and add the fifth.
 
 Output: brief descriptions of intended audience.
+
+**Note: the full set of profiles are in [this repository][profile-site].**
 
 </em>
 
