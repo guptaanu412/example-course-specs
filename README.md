@@ -1,19 +1,21 @@
 # Introduction to the Unix Shell for Data Science
 
-*This document proposes a new format for DataCamp course outlines
-and a new process for developing them,
-based on both Wiggins & McTighe's *[Understanding by Design][ubd]*
-and [Software Carpentry's experience][teaching].
-Feedback would be greatly appreciated.*
+<em>
+
+This document proposes a new format for DataCamp course outlines
+and a new process for developing them.
+Feedback would be greatly appreciated.
+
+</em>
 
 ## Step 0: Learner Profiles
 
 <em>
 
-**Note:** these profiles have been moved to [this repository][profile-site]
+**Note: these profiles have been moved to [this repository][profile-site]
 and are being expanded there.**
 
-*Terms like "beginner" and "expert" mean different things to different people,
+Terms like "beginner" and "expert" mean different things to different people,
 so these profiles make the course's intended audience concrete.
 Profiles typically have [five parts][learner-profiles]:
 the learner's general background,
@@ -22,9 +24,9 @@ what they think they want to do,
 any special needs they might have,
 and how the course will help them.
 DataCamp will have a handful of stock profiles that define the first four points;
-particular course outlines will reference these and add the fifth.*
+particular course outlines will reference these and add the fifth.
 
-*Output: brief descriptions of intended audience.*
+Output: brief descriptions of intended audience.
 
 </em>
 
@@ -80,24 +82,32 @@ particular course outlines will reference these and add the fifth.*
 
 ## Step 1: Concept Map
 
-*This is a brainstorming stage to determine what we want learners to know at the end of the course.
+<em>
+
+This is a brainstorming stage to determine what we want learners to know at the end of the course.
 Its concrete output is usually a [concept map][concept-map] showing the main ideas and their relationships,
 but in some cases it may be more helpful to represent the goal as a [decision tree][abela-chart]
-or some other graphical form.*
+or some other graphical form.
 
-*Output: graphical representation of learner's final mental model.*
+Output: graphical representation of learner's final mental model.
+
+</em>
 
 ![Basic Unix Concepts](img/unix.png)
 
-*Notes:*
+<em>
 
-1. *It's tempting to write learning objectives at this point.
+Notes:
+
+1. It's tempting to write learning objectives at this point.
    Resist!
-   Step 4 will almost certainly result in material being cut.*
+   Step 4 will almost certainly result in material being cut.
 
-2. *If this is your first time creating a concept map, 
+2. If this is your first time creating a concept map, 
    you may struggle with this step.
-   Have no fear—we're here to help!*
+   Have no fear—we're here to help!
+
+</em>
 
 ## Step 2: Summative Assessment
 
@@ -490,6 +500,12 @@ Similarly,
 you may add, move, or remove some specific lesson items after you begin writing exercises
 (though we must approve any signficant structural changes to the course).
 
+## Sources
+
+* Software Carpentry's [instructor training program][swc-teaching]
+* Wiggins & McTighe's *[Understanding by Design][ubd]*
+* Wilson's *[How to Teach Programming (and Other Things)][wilson-teaching]*
+
 [abela-chart]: http://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 [bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
 [concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
@@ -499,6 +515,7 @@ you may add, move, or remove some specific lesson items after you begin writing 
 [profile-site]: https://github.com/datacamp/learner-profiles
 [robohash]: http://robohash.org
 [robust-software]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
+[swc-teaching]: https://swcarpentry.github.io/instructor-training/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
-[teaching]: http://third-bit.com/teaching/
 [ubd]: https://www.amazon.com/Understanding-Design-Grant-Wiggins/dp/1416600353/
+[wilson-teaching]: http://third-bit.com/teaching/
