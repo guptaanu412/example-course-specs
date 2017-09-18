@@ -5,8 +5,7 @@
 This page describes a repeatable process for designing DataCamp courses
 based on evidence-based teaching practices.
 The design of our introduction to the Unix shell for data scientists is used as a running example;
-a Markdown file containing only each section's title and a reminder of its purpose
-can be downloaded [here](template.md).
+please use [this Markdown template](template.md) as a starting point for your own course designs.
 
 </em>
 
