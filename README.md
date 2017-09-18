@@ -293,7 +293,7 @@ Output: an ordering for the milestone formative assessments.
 
 </em>
 
-The formative assessments in Step 4 (Formative Assessments) are already in reverse order.
+The formative assessments in Step 4 (Formative Assessments) are already in order.
 
 <!-- -------------------------------------------------------------------------------- -->
 
