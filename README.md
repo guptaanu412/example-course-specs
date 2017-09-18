@@ -36,7 +36,7 @@ Output: brief descriptions of intended audience.
 
 ### Jasmine
 
-<img alt="Jasmine" src="img/jasmine.png" height="150" width="150" />
+<img alt="Jasmine" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/jasmine.png" height="150" width="150" />
 
 This course will give Jasmine a basic understanding of the Unix shell
 so that she can help her students solve the problems they encounter
@@ -44,7 +44,7 @@ using the university's systems in their statistics courses.
 
 ### Thanh
 
-<img alt="Thanh" src="img/thanh.png" height="150" width="150" />
+<img alt="Thanh" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/thanh.png" height="150" width="150" />
 
 This course will show Thanh how to build command-line tools
 and use remote computing resources (such as clusters),
@@ -52,7 +52,7 @@ and is a step toward building [robust software][robust-software].
 
 ### Yngve
 
-<img alt="Yngve" src="img/yngve.png" height="150" width="150" />
+<img alt="Yngve" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/yngve.png" height="150" width="150" />
 
 Yngve uses all of the tools and concepts that this course introduces on a daily basis,
 and so will not be interested in taking it.
