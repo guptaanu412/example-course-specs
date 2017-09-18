@@ -124,10 +124,6 @@ You have several dozen data files, each of which is formatted like this:
 > unique.sh ~/archive/*.csv ~/new/*.csv
 > ```
 
-2. If we find this approach productive,
-   we may eventually stitch these concept maps together
-   to create something like Kamran Ahmed's [developer roadmap][developer-roadmap].
-
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 3: What will the learner's mental model be at the end of the lesson?
@@ -456,7 +452,6 @@ Its six levels and associated verbs are:
 [abela-chart]: http://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 [bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
 [concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
-[developer-roadmap]: https://github.com/kamranahmedse/developer-roadmap
 [huston-teaching]: https://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674035801/
 [lang-teaching]: https://www.amazon.com/Small-Teaching-Everyday-Lessons-Learning/dp/1118944496/
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
