@@ -3,9 +3,16 @@
 <em>
 
 This page describes a repeatable process for designing DataCamp courses
-based on evidence-based teaching practices.
+that incorporates evidence-based teaching practices.
 The design of our introduction to the Unix shell for data scientists is used as a running example;
 please use [this Markdown template](template.md) as a starting point for your own course designs.
+
+The most important thing about this process is that **it is always iterative**.
+The steps are laid out in a particular order,
+and the final lesson design should be presented in that order,
+but in real life you will frequently go back to revise earlier work
+as you learn something from your answer to a later question
+or realize that your initial plan isn't going to play out the way you first thought.
 
 </em>
 
@@ -31,9 +38,14 @@ each instructor should fill in the final part for two or more learner profiles.
 
 Output: brief descriptions of intended audience.
 
+Note: the [learner profiles][profile-site] will be updated as we learn more about our users.
+Please do not incorporate the profiles into your course design;
+instead,
+link to them and comment on how the lesson relates to them.
+
 </em>
 
-### Jasmine
+### [Jasmine](https://github.com/datacamp/learner-profiles#jasmine)
 
 <img alt="Jasmine" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/jasmine.png" height="150" width="150" />
 
@@ -41,7 +53,7 @@ This course will give Jasmine a basic understanding of the Unix shell
 so that she can help her students solve the problems they encounter
 using the university's systems in their statistics courses.
 
-### Thanh
+### [Thanh](https://github.com/datacamp/learner-profiles#thanh)
 
 <img alt="Thanh" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/thanh.png" height="150" width="150" />
 
@@ -49,7 +61,7 @@ This course will show Thanh how to build command-line tools
 and use remote computing resources (such as clusters),
 and is a step toward building [robust software][robust-software].
 
-### Yngve
+### [Yngve](https://github.com/datacamp/learner-profiles#yngve)
 
 <img alt="Yngve" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/yngve.png" height="150" width="150" />
 
@@ -72,7 +84,8 @@ rather than working forward from a (probably ambiguous) set of learning objectiv
 designers work backward from concrete examples of where their learners are going.
 
 Output: 1-2 exercises that use most or all of the skills the learner is to develop.
-These will normally be included toward the end of the course.
+
+Note: these will normally be included toward the end of the course.
 
 </em>
 
@@ -83,10 +96,6 @@ You have several dozen data files, each of which is formatted like this:
 2013-11-05,rabbit,22
 2013-11-05,raccoon,7
 2013-11-06,rabbit,19
-2013-11-06,deer,2
-2013-11-06,fox,1
-2013-11-07,rabbit,18
-2013-11-07,bear,1
 ```
 
 1. Write a shell script called `unique.sh`
@@ -136,6 +145,10 @@ or some other graphical form.
 
 Output: graphical representation of learner's final mental model.
 
+Note: this step will often be the most unfamiliar to newcomers.
+It's usually easiest to sketch the first drafts of your concept map on paper or a whiteboard
+rather than using computer drawing tools.
+
 </em>
 
 ![Basic Unix Concepts](img/unix.png)
@@ -154,7 +167,7 @@ to tell the learner and the instructor if learners are making progress
 and to give learners a chance to exercise the skills and knowledge
 they will need in the summative assessment.
 
-In order to create formative assessments,
+To create formative assessments,
 work backward from the summative assessment written in Step 2 (Summative Assessment).
 Make a point-form list of the skills needed to solve the summative assessment
 and create a formative assessment for each,
@@ -164,10 +177,11 @@ and repeat until every concept and connection in the concept map (Step 3) is cov
 Output: 5-10 exercises that use the skills you intend to teach.
 These will help communicate the concrete goals of the course to others,
 and help you uncover dependencies you didn't realize you had.
-Note that these are **not** the complete set of exercises for your course,
-but rather milestones along the way
-(typically two per chapter).
-Note also that you should **not** worry about the order of these exercises yet;
+
+Note: these will normally be included in the finished course.
+They are **not** all of its exercises,
+but rather milestones along the way (typically 2-3 per chapter).
+Do not worry about their order;
 you will do that in the next step.
 
 </em>
@@ -284,11 +298,13 @@ Uses:
 <em>
 
 In this stage,
-the milestone formative assessments are put in an order that respects their dependencies.
-This is the point at which you'll discover things you forgot to list earlier,
-so don't be surprised if you have to double back a few times.
+the formative assessments are put in an order
+that implicitly defines the order of topics in the course.
 
 Output: an ordering for the milestone formative assessments.
+
+Note: this is the point at which you are most likely to discover things you forgot to list earlier,
+so don't be surprised if you have to double back a few times.
 
 </em>
 
@@ -304,12 +320,13 @@ Once the milestone formative assessments are sequenced,
 you will create a point-form outline of the chapters.
 Each chapter has a title and 8-15 exercises,
 while each exercise has a handful of keywords describing what it will cover.
-
 This is also when you will consolidate the datasets your formative assessments have used.
-It is common to double back and change assessments so that they can share datasets,
-and/or to modify datasets to make them shareable.
 
 Output: an instructional sequence and dataset summary.
+
+Note: it is common to double back and change assessments in this stage
+so that they can share datasets,
+and/or to modify datasets to make them shareable.
 
 </em>
 
@@ -353,14 +370,17 @@ The datasets are:
 <em>
 
 You are now ready to create the course's public interface:
-its learning objectives,
-a short blurb for the course catalog,
-and a summary of its prerequisites.
+
+* its learning objectives
+* a short blurb for the course catalog
+* a summary of its prerequisites
+
 Doing this earlier often wastes effort,
 since material is often added, cut, or moved around in Steps 2-6.
-(See the appendix for a discussion of how to write good learning objectives.)
 
 Output: learning objectives, course overview, and prerequisites.
+
+Note: see the appendix for a discussion of how to write good learning objectives.
 
 </em>
 
@@ -396,9 +416,9 @@ None.
 
 ## Conclusion
 
-This process is described as a one-way flow,
-but in practice,
-you will loop back repeatedly
+As stated in the introduction,
+this process is described as a one-way flow,
+but in practice you will loop back repeatedly
 as each stage informs you of something you overlooked.
 Similarly,
 you may add, move, or remove some specific lesson items after you begin writing exercises
@@ -406,9 +426,8 @@ you may add, move, or remove some specific lesson items after you begin writing 
 The end product,
 though,
 should have the flow described above,
-since that is the order that will make it easiest for the next person to update your course
-(including your future self)
-to understand what the course is trying to achieve and why it is organized the way it is.
+since that is the order that will make it easiest for the next person who has to update your course
+to understand what it is trying to achieve and why it is organized the way it is.
 
 <!-- -------------------------------------------------------------------------------- -->
 
@@ -416,7 +435,6 @@ to understand what the course is trying to achieve and why it is organized the w
 
 * Huston: *[Teaching What You Don't Know][huston-teaching]*
 * Lang: *[Small Teaching][lang-teaching]*
-* Software Carpentry: [instructor training program][swc-teaching]
 * Wilson: *[How to Teach Programming (and Other Things)][wilson-teaching]*
 
 <!-- -------------------------------------------------------------------------------- -->
