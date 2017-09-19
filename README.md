@@ -78,14 +78,17 @@ and nothing more.
 <em>
 
 The best way to make the goal of a course concrete is
-to present examples of what learners will be able to do at its end.
+to write exercises that test what learners will be able to do at its end.
 This is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
 designers work backward from concrete examples of where their learners are going.
+(Wrapping-up exercises of this kind are technically called *summative assessments*.)
 
 Output: 1-2 exercises that use most or all of the skills the learner is to develop.
 
 Note: these will normally be included toward the end of the course.
+Be sure to include solutions with example code
+so that the scope of the exercise is unambiguous.
 
 </em>
 
@@ -159,7 +162,7 @@ rather than using computer drawing tools.
 
 <em>
 
-Formative assessments are exercises done while learning is taking place,
+*Formative assessments* are exercises done while learning is taking place,
 rather than at the end to determine whether it has.
 Formative assessments serve two purposes:
 to tell the learner and the instructor if learners are making progress
@@ -178,11 +181,16 @@ Output: 5-10 exercises that use the skills you intend to teach.
 These will help communicate the concrete goals of the course to others,
 and help you uncover dependencies you didn't realize you had.
 
-Note: these will normally be included in the finished course.
-They are **not** all of its exercises,
-but rather milestones along the way (typically 2-3 per chapter).
-Do not worry about their order;
-you will do that in the next step.
+Notes:
+
+* These will normally be included in the finished course.
+* They are **not** all of its exercises,
+  but rather milestones along the way (typically 2-3 per chapter).
+* Do not worry about their order;
+  you will do that in the next step.
+* As with summative assessment,
+  be sure to include solutions with example code
+  so that the scope of each exercise is unambiguous.
 
 </em>
 
