@@ -154,7 +154,7 @@ rather than using computer drawing tools.
 
 </em>
 
-![Basic Unix Concepts](img/unix.png)
+![Basic Unix Concepts](design/concept.svg)
 
 <!-- -------------------------------------------------------------------------------- -->
 
