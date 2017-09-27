@@ -320,7 +320,7 @@ The formative assessments in Step 4 are already in order.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 6: How are the exercises connected?
+## Step 6: How are the concepts connected?
 
 <em>
 
