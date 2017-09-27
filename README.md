@@ -369,7 +369,7 @@ The chapter and lesson outline is:
 The datasets are:
 
 - `./dental.csv`: two-column year and tooth data
-- `./data/*.csv': seasonal dental data ('autumn.csv', 'spring.csv', 'summer.csv', 'winter.csv')
+- `./data/*.csv`: seasonal dental data ('autumn.csv', 'spring.csv', 'summer.csv', 'winter.csv')
 
 <!-- -------------------------------------------------------------------------------- -->
 
