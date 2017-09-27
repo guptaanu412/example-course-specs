@@ -331,7 +331,8 @@ A DataCamp course consists of 4-5 chapters.
 Each chapter has a title and 3-5 lessons.
 A lesson is the basic unit of instruction on DataCamp
 and consists of a video to introduce new concepts
-followed by a series of 2-4 exercises for practice. Your outline should list all 4-5 chapters and briefly summarize the lessons contained within each.
+followed by a series of 2-4 exercises for practice.
+Your outline should list all 4-5 chapters and briefly summarize the lessons contained within each.
 
 This is also when you will consolidate the datasets your formative assessments have used.
 
@@ -382,11 +383,11 @@ The datasets are:
 
 <em>
 
-You are now ready to create a high-level overview of the course containing:
+You are now ready to create a high-level course overview containing:
 
-* a one-paragraph course description (i.e. a "sales pitch" to students)
-* its learning objectives
-* a summary of its prerequisites
+* a one-paragraph description (i.e. a "sales pitch" to students)
+* learning objectives
+* a summary of prerequisites
 
 Doing this earlier often wastes effort,
 since material is usually added, cut, or moved around in Steps 2-6.
