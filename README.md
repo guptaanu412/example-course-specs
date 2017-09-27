@@ -435,8 +435,8 @@ this process is described as a one-way flow,
 but in practice you will loop back repeatedly
 as each stage informs you of something you overlooked.
 Similarly,
-you may add, move, or remove some specific lesson items after you begin writing exercises
-(though we must approve any signficant structural changes to the course).
+you may add, move, or remove some specific items after you begin writing exercises
+(though we must approve any significant structural changes to the course).
 The end product,
 though,
 should have the flow described above,
