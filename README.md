@@ -111,12 +111,12 @@ You have several dozen data files, each of which is formatted like this:
 >
 > ```
 > #!/usr/bin/env bash
-> 
+>
 > # Find unique species in CSV files where species is the second data
 > # field.  This script accepts any number of filenames as arguments
 > # and processes each separately.
-> 
-> for file in $@ 
+>
+> for file in $@
 > do
 >   echo $file
 >   cut -d , -f 2 $file | sort | uniq
@@ -171,8 +171,8 @@ and to give learners a chance to exercise the skills and knowledge
 they will need in the summative assessment.
 
 To create formative assessments,
-work backward from the summative assessment written in Step 2 (Summative Assessment).
-Make a point-form list of the skills needed to solve the summative assessment
+work backward from the summative assessments written in Step 2.
+Make a point-form list of the skills needed to solve the summative assessments
 and create a formative assessment for each,
 then itemize the extra skills those exercises depend on,
 and repeat until every concept and connection in the concept map (Step 3) is covered.
@@ -188,7 +188,7 @@ Notes:
   but rather milestones along the way (typically 2-3 per chapter).
 * Do not worry about their order;
   you will do that in the next step.
-* As with summative assessment,
+* As with the summative assessments,
   be sure to include solutions with example code
   so that the scope of each exercise is unambiguous.
 
@@ -316,18 +316,24 @@ so don't be surprised if you have to double back a few times.
 
 </em>
 
-The formative assessments in Step 4 (Formative Assessments) are already in order.
+The formative assessments in Step 4 are already in order.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 6: How are the exercises connected?
+## Step 6: How are the concepts connected?
 
 <em>
 
-Once the milestone formative assessments are sequenced,
-you will create a point-form outline of the chapters.
-Each chapter has a title and 8-15 exercises,
-while each exercise has a handful of keywords describing what it will cover.
+Once the formative assessments are sequenced,
+you will create a point-form outline for the entire course.
+
+A DataCamp course consists of 4-5 chapters.
+Each chapter has a title and 3-5 lessons.
+A lesson is the basic unit of instruction on DataCamp
+and consists of a video to introduce new concepts
+followed by a series of 2-4 exercises for practice.
+Your outline should list all 4-5 chapters and briefly summarize the lessons contained within each.
+
 This is also when you will consolidate the datasets your formative assessments have used.
 
 Output: an instructional sequence and dataset summary.
@@ -377,16 +383,16 @@ The datasets are:
 
 <em>
 
-You are now ready to create the course's public interface:
+You are now ready to create a high-level course overview containing:
 
-* its learning objectives
-* a short blurb for the course catalog
-* a summary of its prerequisites
+* a one-paragraph description (i.e. a "sales pitch" to students)
+* learning objectives
+* a summary of prerequisites
 
 Doing this earlier often wastes effort,
-since material is often added, cut, or moved around in Steps 2-6.
+since material is usually added, cut, or moved around in Steps 2-6.
 
-Output: learning objectives, course overview, and prerequisites.
+Output: course description, learning objectives, and prerequisites.
 
 Note: see the appendix for a discussion of how to write good learning objectives.
 
@@ -429,8 +435,8 @@ this process is described as a one-way flow,
 but in practice you will loop back repeatedly
 as each stage informs you of something you overlooked.
 Similarly,
-you may add, move, or remove some specific lesson items after you begin writing exercises
-(though we must approve any signficant structural changes to the course).
+you may add, move, or remove some specific items after you begin writing exercises
+(though we must approve any significant structural changes to the course).
 The end product,
 though,
 should have the flow described above,
