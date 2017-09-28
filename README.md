@@ -183,12 +183,12 @@ and help you uncover dependencies you didn't realize you had.
 
 Notes:
 
-* These will normally be included in the finished course.
-* They are **not** all of its exercises,
+- These will normally be included in the finished course.
+- They are **not** all of its exercises,
   but rather milestones along the way (typically 2-3 per chapter).
-* Do not worry about their order;
+- Do not worry about their order;
   you will do that in the next step.
-* As with the summative assessments,
+- As with the summative assessments,
   be sure to include solutions with example code
   so that the scope of each exercise is unambiguous.
 
@@ -301,31 +301,13 @@ Uses:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 5: In what order will the learner do things?
+## Step 5: How are the concepts connected?
 
 <em>
 
 In this stage,
-the formative assessments are put in an order
-that implicitly defines the order of topics in the course.
-
-Output: an ordering for the milestone formative assessments.
-
-Note: this is the point at which you are most likely to discover things you forgot to list earlier,
-so don't be surprised if you have to double back a few times.
-
-</em>
-
-The formative assessments in Step 4 are already in order.
-
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 6: How are the concepts connected?
-
-<em>
-
-Once the formative assessments are sequenced,
-you will create a point-form outline for the entire course.
+you put the formative assessments in a logical order,
+then derive a point-form outline for the entire course from them.
 
 A DataCamp course consists of 4-5 chapters.
 Each chapter has a title and 3-5 lessons.
@@ -338,9 +320,13 @@ This is also when you will consolidate the datasets your formative assessments h
 
 Output: an instructional sequence and dataset summary.
 
-Note: it is common to double back and change assessments in this stage
-so that they can share datasets,
-and/or to modify datasets to make them shareable.
+Note:
+
+- It is common to double back and change assessments in this stage
+  so that they can share datasets,
+  and/or to modify datasets to make them shareable.
+- You are likely to discover things you forgot to list earlier during this stage,
+  so don't be surprised if you have to double back a few times.
 
 </em>
 
@@ -379,18 +365,18 @@ The datasets are:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 7: How will learners find the course and know if it's for them?
+## Step 6: How will learners find the course and know if it's for them?
 
 <em>
 
 You are now ready to create a high-level course overview containing:
 
-* a one-paragraph description (i.e. a "sales pitch" to students)
-* learning objectives
-* a summary of prerequisites
+- a one-paragraph description (i.e., a sales pitch to students)
+- learning objectives
+- a summary of prerequisites
 
 Doing this earlier often wastes effort,
-since material is usually added, cut, or moved around in Steps 2-6.
+since material is usually added, cut, or moved around in Steps 2-5.
 
 Output: course description, learning objectives, and prerequisites.
 
@@ -447,9 +433,9 @@ to understand what it is trying to achieve and why it is organized the way it is
 
 ## Further Reading
 
-* Huston: *[Teaching What You Don't Know][huston-teaching]*
-* Lang: *[Small Teaching][lang-teaching]*
-* Wilson: *[How to Teach Programming (and Other Things)][wilson-teaching]*
+- Huston: *[Teaching What You Don't Know][huston-teaching]*
+- Lang: *[Small Teaching][lang-teaching]*
+- Wilson: *[How to Teach Programming (and Other Things)][wilson-teaching]*
 
 <!-- -------------------------------------------------------------------------------- -->
 
