@@ -1,6 +1,6 @@
 This document is designed to help you think of ideas for course content. Don't worry about the order of the ideas, or how stupid they are. (Filtering and ordering comes later.) Just write down anything that might be interesting.
 
-## What problems do you want the student to be able solve?
+### What problems do you want the student to be able solve?
 
 *For example:*   
 *How to draw plots using ggplot2.*  
@@ -16,17 +16,17 @@ This document is designed to help you think of ideas for course content. Don't w
 *Combining plot elements using `+`.*  
 *The split-train-model-predict modeling workflow.*  
 *Type I vs. Type II errors.*  
-*Start with Holt-Winters models and work up to time-based neiral networks.*  
+*Start with Holt-Winters models and work up to time-based neural networks.*  
 
 
 
 ### What technologies, packages, or functions do you want them to use?
 
 *For example:*  
-*ggplot2 for drawing plots and dplyr for manipulating the data.*  
-*Focus on caret and ranger but discuss the Rborist and randomForest pkgs as alternatives.*  
-*Use experiment for experimental design. Not sure whether to use pwr or PwrGSD for sample size calcs.*  
-*Mainly forecast but might need to discuss xts for the time series.*  
+*`ggplot2` for drawing plots and `dplyr` for manipulating the data.*  
+*Focus on `caret` and `ranger` but discuss the Rborist and `randomForest` pkgs as alternatives.*  
+*Use `experiment` for experimental design. Not sure whether to use `pwr` or `PwrGSD` for sample size calcs.*  
+*Mainly `forecast` but might need to discuss `xts` for the time series.*  
 
 
 
