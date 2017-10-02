@@ -2,44 +2,170 @@
 
 <em>
 
-This page describes a repeatable process for designing DataCamp courses
-that incorporates evidence-based teaching practices.
-The design of our introduction to the Unix shell for data scientists is used as a running example;
-please use [this Markdown template](template.md) as a starting point for your own course designs.
+Designing a good course is as hard as designing good software.
+To help you,
+this document describes a process based on evidence-based teaching practices:
 
-The most important thing about this process is that **it is always iterative**.
+- It lays out a structured design process that helps you figure out
+  what to think about in what order to design lesson more quickly.
+- It provides check-in points at which you and your Curriculum Lead (CL) can re-scope or redirect effort.
+- The end product specifies deliverables clearly enough for you to be able to finish development without major surprises.
+- Everything from Step 2 onward goes into your final course, so there is no wasted effort.
+- Getting you to work through some sample exercises early gives us a chance to make sure
+  that we can support all of the things you will want your students to do.
+
 The steps are laid out in a particular order,
-and the final lesson design should be presented in that order,
-but in real life you will frequently go back to revise earlier work
+but the process itself is iterative:
+you will frequently go back to revise earlier work
 as you learn something from your answer to a later question
 or realize that your initial plan isn't going to play out the way you first thought.
+
+We use the design of our introduction to the Unix shell for data scientists as a running example;
+please use [this Markdown template](template.md) as a starting point for designing your own courses.
+For more information,
+please see [How to create a DataCamp course][datacamp-how]
+and [the teaching documentation][datacamp-teach].
+
+## Terminology and Structure
+
+- A **course** is a self-contained module with its own top-level entry in our catalog,
+  its own GitHub repository,
+  etc.
+- A **chapter** is a major section of a course.
+- Chapters are made up of **lessons**,
+  each of which consists of a short video and a handful of **exercises**.
+
+A course typically has about the same amount of content as a half-day conference workshop,
+and contains 44-60 exercises (including videos) and 4-5 chapters.
+A typical breakdown is:
+
+- Chapter 1: 8-12 exercises
+- Chapter 2: 10-16 exercises
+- Chapter 3: 10-16 exercises
+- Chapter 4: 10-16 exercises
+- Chapter 5 (optional): 10-16 exercises
+
+Each chapter begins with a video and videos are separated by 2-4 interactive exercises
 
 </em>
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 1: Who is this lesson for?
+## Step 1: Brainstorming
+
+<em>
+
+The first step is to throw together some rough ideas
+so that you and your CL can make sure your thoughts about the course are aligned.
+One way to do this is to write some point-form answers to the following questions:
+
+1. *What problem(s) will student learn how to solve?*
+   Examples include "how to draw plots using `ggplot2`",
+   "how to run a random forest model",
+   or "how to forecast the demand for a product".
+
+2. *What techniques or concepts will students learn?*
+   Examples include "combining plot elements using `+`",
+   "the split-train-model-predict modeling workflow",
+   or "rolling back Git commits".
+
+3. *What technologies, packages, or functions will students use?*
+   Examples include "`ggplot2` for drawing plots",
+   "`experiment` for experimental design (but not sure whether to use `pwr` or `PwrGSD` for sample size calcs)",
+   or "TBD: something for map-reduce computations".
+   (It's OK at this stage to have placeholders.)
+
+4. *What terms or jargon will you define?*
+   Examples include "boosting versus bagging",
+   "block/factorial/sequential designs",
+   or "forecasting versus prediction".
+
+5. *What analogies will you use to explain concepts?*
+   Examples include "ggplots are like Lego for graphics"
+   or "seasonality and trends are like revolution and evolution".
+   (See [Gelman & Nolan][teaching-statistics] for more ideas here.)
+
+6. *What heuristics will help students understand things?*
+   Examples include "draw a simple plot then add elements one by one",
+   "split the dataset into 70% training, 30% testing",
+   or "don't use Holt-Winters if your demand spikes on holidays".
+
+7. *What mistakes or misconceptions do you expect?*
+   Examples include "changing colors works differently if the color argument is inside an aesthetic or not",
+   "overfitting models to the data",
+   and "floating point numbers behave like real numbers".
+
+8. *What datasets will you use?*
+   Examples include "anything but the diamonds and mtcars datasets",
+   "something from the [UCI Archive][uci-archive]",
+   or "TBD: WHO infectious disease data".
+
+You may not need to answer every question for every course,
+and you will often have questions or issues we haven't suggested,
+but couple of hours of thinking at this stage can save days of rework later on.
+
+Output: a rough scope for the lesson that you have agreed with your CL.
+
+</em>
+
+1. What problem(s) will student learn how to solve?
+   - How to combine existing/legacy tools.
+   - How to make analyses reproducible.
+2. What techniques or concepts will students learn?
+   - History.
+   - Pipes.
+   - Shell scripts.
+3. What technologies, packages, or functions will students use?
+   - Bash shell.
+   - Basic Unix commands (`cd`, `ls`).
+   - Basic data manipulation commands (`head`, `cut`, `grep`).
+4. What terms or jargon will you define?
+   - Filesystem.
+   - Redirection.
+   - Pipe.
+   - Wildcard.
+5. What analogies will you use to explain concepts?
+   - Command-line pipeline is like chemistry pipeline.
+   - Shell scripts are like snippets of command history.
+6. What heuristics will help students understand things?
+   - Use filenames that are easy to match with tab completion and wildcards.
+   - Build pipelines step by step.
+7. What mistakes or misconceptions do you expect?
+   - The shell shows the same files and folders as the GUI interface they're used to.
+   - Definition vs. use of variables (especially loop variables).
+8. What datasets will you use?
+   - Dental records (reduced to region, date, and tooth).
+
+<!-- -------------------------------------------------------------------------------- -->
+
+## Step 2: Who is this lesson for?
 
 <em>
 
 Terms like "beginner" and "expert" mean different things to different people,
 and many factors besides pre-existing knowledge influence who a course is suitable for.
-The first step in designing a lesson is therefore to make clear who it is intended to help and how,
-and the best way to do this is
-to explain what [these fictitious people][profile-site] will and won't get out of it.
-These profiles have [five parts][learner-profiles]:
+The second step in designing a lesson is therefore to make clear who it is intended to help and how.
+To help you do this,
+we have created [learner profiles][profile-site] for typical DataCamp students.
+Each profile has [four constant parts][learner-profiles]:
 the person's general background,
 what they already know,
 what they think they want to do,
-any special needs they might have,
-and how the course will help them.
-The first four parts are defined by DataCamp;
-each instructor should fill in the final part for two or more learner profiles.
+and any special needs they might have.
 
-Output: brief descriptions of intended audience.
+Once you are done brainstorming,
+you should go through the profiles we have provided
+and identify which of these students it will help and how.
+While doing this,
+you may want to add some notes about what you expect from particular learners,
+or even create another profile of your own if you feel that
+the ones we have provided don't capture your intended audience.
 
-Note: the [learner profiles][profile-site] will be updated as we learn more about our users.
-Please do not incorporate the profiles into your course design;
+Output: brief summaries of who your course will help and how.
+
+Note: the [learner profiles][profile-site] are representative abstractions of our actual and aspirational user community,
+and will be updated as we gather more data about who is using our courses.
+Please do not copy the profiles into your course design;
 instead,
 link to them and comment on how the lesson relates to them.
 
@@ -57,28 +183,26 @@ using the university's systems in their statistics courses.
 
 <img alt="Thanh" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/thanh.png" height="150" width="150" />
 
-This course will show Thanh how to build command-line tools
-and use remote computing resources (such as clusters),
-and is a step toward building [robust software][robust-software].
+We assume that Thanh can already use basic commands like `cd` and `ls`,
+and knows how to create pipelines.
+This course will show him how to build shell scripts
+and use remote computing resources (such as clusters).
 
 ### [Yngve](https://github.com/datacamp/learner-profiles#yngve)
 
 <img alt="Yngve" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/yngve.png" height="150" width="150" />
 
 Yngve uses all of the tools and concepts that this course introduces on a daily basis,
-and so will not be interested in taking it.
-If he is required to do so as part of a certification or learning path,
-he should be able to do one or two of the final exercises to demonstrate his understanding,
-and nothing more.
+so he won't be interested in taking it.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 2: How far will this lesson get its learners?
+## Step 3: How far will this lesson get its learners?
 
 <em>
 
 The best way to make the goal of a course concrete is
-to write exercises that test what learners will be able to do at its end.
+to write one or two exercises that test what learners will be able to do at its end.
 This is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
 designers work backward from concrete examples of where their learners are going.
@@ -137,27 +261,6 @@ You have several dozen data files, each of which is formatted like this:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 3: What will the learner's mental model be at the end of the lesson?
-
-<em>
-
-This is a brainstorming stage to determine how learners should think of the subject at the end of the course.
-Its concrete output is usually a [concept map][concept-map] showing the main ideas and their relationships,
-but in some cases it may be more helpful to represent the goal as a [decision tree][abela-chart]
-or some other graphical form.
-
-Output: graphical representation of learner's final mental model.
-
-Note: this step will often be the most unfamiliar to newcomers.
-It's usually easiest to sketch the first drafts of your concept map on paper or a whiteboard
-rather than using computer drawing tools.
-
-</em>
-
-![Basic Unix Concepts](design/concept.svg)
-
-<!-- -------------------------------------------------------------------------------- -->
-
 ## Step 4: What will the learner do along the way?
 
 <em>
@@ -171,7 +274,7 @@ and to give learners a chance to exercise the skills and knowledge
 they will need in the summative assessment.
 
 To create formative assessments,
-work backward from the summative assessments written in Step 2.
+work backward from the summative assessments written in Step 3.
 Make a point-form list of the skills needed to solve the summative assessments
 and create a formative assessment for each,
 then itemize the extra skills those exercises depend on,
@@ -183,9 +286,9 @@ and help you uncover dependencies you didn't realize you had.
 
 Notes:
 
-- These will normally be included in the finished course.
+- These exercises will normally be included in the finished course.
 - They are **not** all of its exercises,
-  but rather milestones along the way (typically 2-3 per chapter).
+  but rather milestones along the way (typically 1-2 per chapter).
 - Do not worry about their order;
   you will do that in the next step.
 - As with the summative assessments,
@@ -308,14 +411,6 @@ Uses:
 In this stage,
 you put the formative assessments in a logical order,
 then derive a point-form outline for the entire course from them.
-
-A DataCamp course consists of 4-5 chapters.
-Each chapter has a title and 3-5 lessons.
-A lesson is the basic unit of instruction on DataCamp
-and consists of a video to introduce new concepts
-followed by a series of 2-4 exercises for practice.
-Your outline should list all 4-5 chapters and briefly summarize the lessons contained within each.
-
 This is also when you will consolidate the datasets your formative assessments have used.
 
 Output: an instructional sequence and dataset summary.
@@ -327,6 +422,10 @@ Note:
   and/or to modify datasets to make them shareable.
 - You are likely to discover things you forgot to list earlier during this stage,
   so don't be surprised if you have to double back a few times.
+- The final outline should be at the chapter and lesson (video) level,
+  i.e.,
+  one major bullet point for each of the 4-5 chapters
+  with 4-5 minor bullet points for the video lessons.
 
 </em>
 
@@ -334,29 +433,25 @@ The chapter and lesson outline is:
 
 1. Manipulating Files and Directories
    1. What a shell is; how it compares to a graphical interface.
-   2. `whoami`; `pwd`; `ls`; files vs. directories
-   3. cd; the special paths `.` and `..`
-   4. `cat`; editing text files with tools like `nano`
-   5. `cp`
-   6. `mv`; `rm`
-   7. `mkdir`; `rmdir`
+   2. Basic commands (`whoami`; `pwd`; `ls`).
+   3. Moving around (cd; the special paths `.` and `..`).
+   4. Creating, deleting, and renaming (`cp`; `mv`; `rm`; `mkdir`; `rmdir`).
 2. Manipulating Data
-   1. `head`; `tail`; command-line flags
-   2. `man`
-   3. `cut`
-   4. `history`; `!number` and `!command`
-   5. `grep`; single-quoting arguments to protect special characters
+   1. Getting rows (`head`; `tail`).
+   2. Getting columns (`cut`)
+   3. Repeating steps (`history`; `!number` and `!command`)
+   4. Selecting by value (`grep`; quoting arguments to protect special characters)
 3. Combining Tools
    1. Redirection with `>`
    2. Piping with `|`
    4. Using the `*` and `?` wildcards
-   3. `uniq`; `sort`
-4. Automating Repeated Tasks
-   1. Storing commands in files; running files with `bash script.sh`
-   2. Permissions; `ls -l`; changing permissions; using `!#`
-   3. Using positional arguments `$1`, `$2`, etc.
-   4. Using `$@`
-   5. Teaser for the next course in the sequence (shell loops and SSH)
+   3. Using `uniq` and `sort` (useful, and further examples of pipelines).
+4. Batch Processing
+   1. Storing commands in shell scripts.
+   2. Permissions; using `!#`.
+   3. Using arguments in shell scripts.
+   4. Shell variables.
+   5. Loops.
 
 The datasets are:
 
@@ -365,7 +460,7 @@ The datasets are:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 6: How will learners find the course and know if it's for them?
+## Step 6: Course outline
 
 <em>
 
@@ -376,11 +471,11 @@ You are now ready to create a high-level course overview containing:
 - a summary of prerequisites
 
 Doing this earlier often wastes effort,
-since material is usually added, cut, or moved around in Steps 2-5.
+since material is usually added, cut, or moved around in earlier steps.
 
 Output: course description, learning objectives, and prerequisites.
 
-Note: see the appendix for a discussion of how to write good learning objectives.
+Note: see the appendix for a discussion of how to write student-oriented learning objectives.
 
 </em>
 
@@ -441,16 +536,19 @@ to understand what it is trying to achieve and why it is organized the way it is
 
 ## Appendix: Writing Good Learning Objectives
 
-To write a good learning objective:
+A good learning objective is student-facing:
+it explains what the student will do to demonstrate that they have learned
+what you wanted them to learn.
+The three elements of a good learning objective are:
 
-1. Identify the *main noun* (the thing you want learners to master).
-2. Identify the *level of understanding* you want (discussed below).
-3. Select an *observable verb*.
-   "Learner will understand X" isn't observable (at least, not until telepathy is productized),
-   but "learner will describe key points in the development of X" is.
+1. The *main noun* (the thing you want learners to master).
+2. The *level of understanding* you want (discussed below).
+3. An *observable verb*.
+   "Learner will understand X" isn't observable,
+   but "learner will summarize key steps in the creation of X" is.
 
 The most widely used classification of levels of understanding is [Bloom's Taxonomy][bloom].
-Its six levels and associated verbs are:
+Its six levels and typical observable verbs are:
 
 1. Knowledge: recalling learned information
    (name, define, recall).
@@ -469,11 +567,14 @@ Its six levels and associated verbs are:
 [abela-chart]: http://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 [bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
 [concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
+[datacamp-how]: https://www.datacamp.com/teach/documentation
+[datacamp-teach]: https://www.datacamp.com/teach/documentation
 [huston-teaching]: https://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674035801/
 [lang-teaching]: https://www.amazon.com/Small-Teaching-Everyday-Lessons-Learning/dp/1118944496/
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
 [profile-site]: https://github.com/datacamp/learner-profiles
-[robust-software]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
 [swc-teaching]: https://swcarpentry.github.io/instructor-training/
+[teaching-statistics]: https://www.amazon.com/Teaching-Statistics-Tricks-Andrew-Gelman/dp/0198572247/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
+[uci-archive]: http://archive.ics.uci.edu/ml/index.php
 [wilson-teaching]: http://third-bit.com/teaching/

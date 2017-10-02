@@ -1,115 +1,71 @@
-# FIXME: COURSE TITLE
+# Course Title
 
-## Step 1: Who is this lesson for?
+## Step 1: Brainstorming
 
-Output: 1-2 sentences each explaining how this course will or won't help 2-4 [prototypical learners][profile-site].
+1. What problem(s) will student learn how to solve?
+2. What techniques or concepts will students learn?
+3. What technologies, packages, or functions will students use?
+4. What terms or jargon will you define?
+5. What analogies will you use to explain concepts?
+6. What heuristics will help students understand things?
+7. What mistakes or misconceptions do you expect?
+8. What datasets will you use?
 
-### FIXME: LEARNER 1
+## Step 2: Who is this lesson for?
 
-FIXME: explanation 1.
+Link to [learner profiles].
 
-### FIXME: LEARNER 2
+* Learner 1: discussion.
+* Learner 2: discussion.
+* Learner 3: discussion.
 
-FIXME: explanation 2.
+## Step 3: How far will this lesson get its learners?
 
-### FIXME: LEARNER 3
-
-FIXME: explanation 3.
-
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 2: How far will this lesson get its learners?
-
-Output: 1-2 exercises that use most or all of the skills the learner is to develop.
-
-FIXME: exercise 1.
-
-> **Solution**
->
-> FIXME: solution 1
-
-FIXME: exercise 2.
+Exercise: description (can be point-form).
 
 > **Solution**
 >
-> FIXME: solution 2
-
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 3: What will the learner's mental model be at the end of the lesson?
-
-Output: graphical representation of learner's final mental model.
-
-FIXME: image.
-
-<!-- -------------------------------------------------------------------------------- -->
+> Include sample code.
 
 ## Step 4: What will the learner do along the way?
 
-Output: 5-10 exercises that use the skills you intend to teach
-samples more-or-less evenly throughout the course.
+Exercise: description (can be point-form).
 
-### FIXME: Exercise 1
+> **Solution**
+>
+> Include sample code.
 
-FIXME: description 1.
+## Step 5: How are the concepts connected?
 
-Uses:
-- keyword 1.1
-- keyword 1.2
-
-### FIXME: Exercise 2
-
-FIXME: description 2.
-
-Uses:
-- keyword 2.1
-- keyword 2.2
-
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 5: In what order will the learner do things?
-
-Output: an ordering for the milestone formative assessments.
-
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 6: How are the exercises connected?
-
-Output: an instructional sequence and dataset summary.
-
-- Chapter 1 title
-  - Bullet 1.1
-  - Bullet 1.2
-  - Bullet 1.3
-- Chapter 2 title
-  - Bullet 2.1
-  - Bullet 2.2
-  - Bullet 2.3
+- Chapter 1
+  - Lesson 1.1
+  - Lesson 1.2
+  - Lesson 1.3
+- Chapter 2
+  - Lesson 2.1
+  - Lesson 2.2
+  - Lesson 2.3
 
 The datasets are:
 
 - `path/to/dataset-1`: data set 1
 - `path/to/dataset-2`: data set 2
 
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 7: How will learners find the course and know if it's for them?
-
-Output: learning objectives, course overview, and prerequisites.
+## Step 6: Course outline
 
 **Course Description**
 
-FIXME: one-paragraph teaser for the course.
+One-paragraph deccription of the course.
 
 **Learning Objectives**
 
-- FIXME: objective 1
-- FIXME: objective 2
-- FIXME: objective 3
+- Objective 1
+- Objective 2
+- Objective 3
 
 **Prerequisites**
 
-- FIXME: prerequisite 1
-- FIXME: prerequisite 2
+- Prerequisite 1
+- Prerequisite 2
 
 [profile-site]: https://github.com/datacamp/learner-profiles
