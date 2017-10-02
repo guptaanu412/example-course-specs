@@ -57,7 +57,9 @@ Each chapter begins with a video and videos are separated by 2-4 interactive exe
 
 The first step is to throw together some rough ideas
 so that you and your CL can make sure your thoughts about the course are aligned.
-One way to do this is to write some point-form answers to the following questions:
+One way to do this is to write some point-form answers to questions like the ones listed below.
+(Note that you aren't expected to answer all of these questions:
+they are just meant as starting points.)
 
 1. *What problem(s) will student learn how to solve?*
    Examples include "how to draw plots using `ggplot2`",
