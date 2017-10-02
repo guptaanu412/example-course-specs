@@ -171,29 +171,20 @@ link to them and comment on how the lesson relates to them.
 
 </em>
 
-### [Jasmine](https://github.com/datacamp/learner-profiles#jasmine)
+- [Jasmine](https://github.com/datacamp/learner-profiles#jasmine):
+  This course will give Jasmine a basic understanding of the Unix shell
+  so that she can help her students solve the problems they encounter
+  using the university's systems in their statistics courses.
 
-<img alt="Jasmine" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/jasmine.png" height="150" width="150" />
+- [Thanh](https://github.com/datacamp/learner-profiles#thanh):
+  We assume that Thanh can already use basic commands like `cd` and `ls`,
+  and knows how to create pipelines.
+  This course will show him how to build shell scripts
+  and use remote computing resources (such as clusters).
 
-This course will give Jasmine a basic understanding of the Unix shell
-so that she can help her students solve the problems they encounter
-using the university's systems in their statistics courses.
-
-### [Thanh](https://github.com/datacamp/learner-profiles#thanh)
-
-<img alt="Thanh" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/thanh.png" height="150" width="150" />
-
-We assume that Thanh can already use basic commands like `cd` and `ls`,
-and knows how to create pipelines.
-This course will show him how to build shell scripts
-and use remote computing resources (such as clusters).
-
-### [Yngve](https://github.com/datacamp/learner-profiles#yngve)
-
-<img alt="Yngve" src="https://raw.githubusercontent.com/datacamp/learner-profiles/master/img/yngve.png" height="150" width="150" />
-
-Yngve uses all of the tools and concepts that this course introduces on a daily basis,
-so he won't be interested in taking it.
+- [Yngve](https://github.com/datacamp/learner-profiles#yngve):
+  Yngve uses all of the tools and concepts that this course introduces on a daily basis,
+  so he won't be interested in taking it.
 
 <!-- -------------------------------------------------------------------------------- -->
 
