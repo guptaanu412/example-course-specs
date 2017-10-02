@@ -146,7 +146,7 @@ Terms like "beginner" and "expert" mean different things to different people,
 and many factors besides pre-existing knowledge influence who a course is suitable for.
 The second step in designing a lesson is therefore to make clear who it is intended to help and how.
 To help you do this,
-we have created [learner profiles][profile-site] for typical DataCamp students.
+we have created [student profiles][profile-site] for typical DataCamp students.
 Each profile has [four constant parts][learner-profiles]:
 the person's general background,
 what they already know,
@@ -157,13 +157,13 @@ Once you are done brainstorming,
 you should go through the profiles we have provided
 and identify which of these students it will help and how.
 While doing this,
-you may want to add some notes about what you expect from particular learners,
+you may want to add some notes about what you expect from particular students,
 or even create another profile of your own if you feel that
 the ones we have provided don't capture your intended audience.
 
 Output: brief summaries of who your course will help and how.
 
-Note: the [learner profiles][profile-site] are representative abstractions of our actual and aspirational user community,
+Note: the [student profiles][profile-site] are representative abstractions of our actual and aspirational user community,
 and will be updated as we gather more data about who is using our courses.
 Please do not copy the profiles into your course design;
 instead,
@@ -188,18 +188,18 @@ link to them and comment on how the lesson relates to them.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 3: How far will this lesson get its learners?
+## Step 3: How far will this lesson get its students?
 
 <em>
 
 The best way to make the goal of a course concrete is
-to write one or two exercises that test what learners will be able to do at its end.
+to write one or two exercises that test what students will be able to do at its end.
 This is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
-designers work backward from concrete examples of where their learners are going.
+designers work backward from concrete examples of where their students are going.
 (Wrapping-up exercises of this kind are technically called *summative assessments*.)
 
-Output: 1-2 exercises that use most or all of the skills the learner is to develop.
+Output: 1-2 exercises that use most or all of the skills the student is to develop.
 
 Note: these will normally be included toward the end of the course.
 Be sure to include solutions with example code
@@ -252,16 +252,16 @@ You have several dozen data files, each of which is formatted like this:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 4: What will the learner do along the way?
+## Step 4: What will the student do along the way?
 
 <em>
 
 *Formative assessments* are exercises done while learning is taking place,
 rather than at the end to determine whether it has.
 Formative assessments serve two purposes:
-to tell the learner and the instructor if learners are making progress
+to tell the student and the instructor if students are making progress
 (or conversely, what they still need to work on),
-and to give learners a chance to exercise the skills and knowledge
+and to give students a chance to exercise the skills and knowledge
 they will need in the summative assessment.
 
 To create formative assessments,
@@ -532,11 +532,11 @@ it explains what the student will do to demonstrate that they have learned
 what you wanted them to learn.
 The three elements of a good learning objective are:
 
-1. The *main noun* (the thing you want learners to master).
+1. The *main noun* (the thing you want students to master).
 2. The *level of understanding* you want (discussed below).
 3. An *observable verb*.
-   "Learner will understand X" isn't observable,
-   but "learner will summarize key steps in the creation of X" is.
+   "Student will understand X" isn't observable,
+   but "student will summarize key steps in the creation of X" is.
 
 The most widely used classification of levels of understanding is [Bloom's Taxonomy][bloom].
 Its six levels and typical observable verbs are:

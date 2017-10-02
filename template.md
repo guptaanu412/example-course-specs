@@ -13,13 +13,13 @@
 
 ## Step 2: Who is this lesson for?
 
-Link to [learner profiles].
+Link to [student profiles].
 
-* Learner 1: discussion.
-* Learner 2: discussion.
-* Learner 3: discussion.
+* Student 1: discussion.
+* Student 2: discussion.
+* Student 3: discussion.
 
-## Step 3: How far will this lesson get its learners?
+## Step 3: How far will this lesson get its students?
 
 Exercise: description (can be point-form).
 
@@ -27,7 +27,7 @@ Exercise: description (can be point-form).
 >
 > Include sample code.
 
-## Step 4: What will the learner do along the way?
+## Step 4: What will the student do along the way?
 
 Exercise: description (can be point-form).
 
