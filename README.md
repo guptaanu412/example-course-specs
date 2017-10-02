@@ -7,7 +7,7 @@ To help you,
 this document describes a process based on evidence-based teaching practices:
 
 - It lays out a structured design process that helps you figure out
-  what to think about in what order to design lesson more quickly.
+  what to think about in what order to design courses more quickly.
 - It provides check-in points at which you and your Curriculum Lead (CL) can re-scope or redirect effort.
 - The end product specifies deliverables clearly enough for you to be able to finish development without major surprises.
 - Everything from Step 2 onward goes into your final course, so there is no wasted effort.
@@ -104,7 +104,7 @@ You may not need to answer every question for every course,
 and you will often have questions or issues we haven't suggested,
 but couple of hours of thinking at this stage can save days of rework later on.
 
-Output: a rough scope for the lesson that you have agreed with your CL.
+Output: a rough scope for the course that you have agreed with your CL.
 
 </em>
 
@@ -138,13 +138,13 @@ Output: a rough scope for the lesson that you have agreed with your CL.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 2: Who is this lesson for?
+## Step 2: Who is this course for?
 
 <em>
 
 Terms like "beginner" and "expert" mean different things to different people,
 and many factors besides pre-existing knowledge influence who a course is suitable for.
-The second step in designing a lesson is therefore to make clear who it is intended to help and how.
+The second step in designing a course is therefore to make clear who it is intended to help and how.
 To help you do this,
 we have created [student profiles][profile-site] for typical DataCamp students.
 Each profile has [four constant parts][learner-profiles]:
@@ -167,7 +167,7 @@ Note: the [student profiles][profile-site] are representative abstractions of ou
 and will be updated as we gather more data about who is using our courses.
 Please do not copy the profiles into your course design;
 instead,
-link to them and comment on how the lesson relates to them.
+link to them and comment on how the course relates to them.
 
 </em>
 
@@ -188,7 +188,7 @@ link to them and comment on how the lesson relates to them.
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 3: How far will this lesson get its students?
+## Step 3: How far will this course get its students?
 
 <em>
 
