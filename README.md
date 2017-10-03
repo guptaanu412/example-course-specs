@@ -1,4 +1,12 @@
-# Designing DataCamp Courses
+# <course-name> by <instructor-name>
+
+## Course development resources
+
+* Course admin page: https://www.datacamp.com/teach/repositories/<course-id>
+* Course dev documentation: https://www.datacamp.com/create/how
+* Technical documentation: https://www.datacamp.com/teach/documentation
+
+## Designing DataCamp Courses
 
 <em>
 
