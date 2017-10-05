@@ -55,7 +55,7 @@ The datasets are:
 
 **Course Description**
 
-One-paragraph deccription of the course.
+One-paragraph description of the course.
 
 **Learning Objectives**
 
