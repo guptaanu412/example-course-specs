@@ -11,7 +11,7 @@
 7. What mistakes or misconceptions do you expect?
 8. What datasets will you use?
 
-## Step 2: Who is this lesson for?
+## Step 2: Who is this course for?
 
 Link to [student profiles](https://github.com/datacamp/learner-profiles).
 
@@ -19,7 +19,7 @@ Link to [student profiles](https://github.com/datacamp/learner-profiles).
 * Student 2: discussion.
 * Student 3: discussion.
 
-## Step 3: How far will this lesson get its students?
+## Step 3: How far will this course get its students?
 
 Exercise: description (can be point-form).
 
