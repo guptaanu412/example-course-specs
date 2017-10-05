@@ -13,7 +13,7 @@
 
 ## Step 2: Who is this lesson for?
 
-Link to [student profiles].
+Link to [student profiles](https://github.com/datacamp/learner-profiles).
 
 * Student 1: discussion.
 * Student 2: discussion.
