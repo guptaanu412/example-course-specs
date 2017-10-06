@@ -162,13 +162,13 @@ link to them and comment on how the course relates to them.
   so that she can help her students solve the problems they encounter
   using the university's systems in their statistics courses.
 
-- [Thanh](https://github.com/datacamp/learner-profiles#thanh):
+- [Thanh](https://github.com/datacamp/learner-profiles#thanh)
   can already use `ls`, `cd`, and similar simple commands when he has to,
   but does anything requiring loops or reproducibility in R.
   This course will show him how to build shell scripts that call legacy tools used by his group
   so that he can automate the analyses other members of his group do.
 
-- [Yngve](https://github.com/datacamp/learner-profiles#yngve):
+- [Yngve](https://github.com/datacamp/learner-profiles#yngve)
   uses the tools that this course introduces on a daily basis,
   so he won't be interested in taking it.
 
