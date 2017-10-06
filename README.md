@@ -60,45 +60,35 @@ and you may pose and answer others if you and your CL think it's helpful,
 but you should always include a couple of answers to the first.
 
 1. *What problem(s) will student learn how to solve?*
-   Examples include "how to draw plots using `ggplot2`",
-   "how to run a random forest model",
-   or "how to forecast the demand for a product".
+   E.g., "how to draw plots using `ggplot2`"
+   or "how to forecast product demand".
 
 2. *What concepts and techniques will students learn?*
-   Examples include "combining plot elements using `+`",
-   "the split-train-model-predict modeling workflow",
+   E.g., "the split-train-model-predict workflow"
    or "rolling back Git commits".
 
 3. *What technologies, packages, or functions will students use?*
-   Examples include "`ggplot2` for drawing plots",
-   "`experiment` for experimental design (with either `pwr` or `PwrGSD` for sample size calculations)",
-   or "TBD: something for map-reduce computations".
-   (It's OK at this stage to have placeholders.)
+   E.g., "`ggplot2` for drawing plots".
 
 4. *What terms or jargon will you define?*
-   Examples include "boosting versus bagging",
-   "block/factorial/sequential designs",
-   or "forecasting versus prediction".
+   E.g., "boosting versus bagging"
+   or "block/factor/sequential designs".
 
 5. *What analogies will you use to explain concepts?*
-   Examples include "ggplots are like Lego for graphics"
-   or "seasonality and trends are like revolution and evolution".
+   E.g., "ggplots are like Lego for graphics".
    (See [Gelman & Nolan][teaching-statistics] for more ideas here.)
 
 6. *What heuristics will help students understand things?*
-   Examples include "draw a simple plot then add elements one by one",
-   "split the dataset into 70% training, 30% testing",
+   E.g., "draw a simple plot then add elements one by one"
    or "don't use Holt-Winters if your demand spikes on holidays".
 
 7. *What mistakes or misconceptions do you expect?*
-   Examples include "changing colors works differently if the color argument is inside an aesthetic or not",
-   "overfitting models to the data",
-   and "floating point numbers behave like real numbers".
+   E.g., "changing colors works differently if the color argument is inside an aesthetic or not"
+   or "overfitting models to the data".
 
 8. *What datasets will you use?*
-   Examples include "anything but the diamonds and mtcars datasets",
-   "something from the [UCI Archive][uci-archive]",
-   or "TBD: WHO infectious disease data".
+   E.g., "anything but the diamonds and mtcars datasets"
+   or "something from the [UCI Archive][uci-archive]".
 
 You may not need to answer every question for every course,
 and you will often have questions or issues we haven't suggested,
@@ -110,33 +100,26 @@ Checkin: a rough scope for the course that you have agreed with your CL.
 
 The questions and answers for the Unix shell course are:
 
-1. What problem(s) will student learn how to solve?
-   - How to combine existing/legacy tools.
-   - How to make analyses reproducible.
-2. What techniques or concepts will students learn?
-   - History.
-   - Pipes.
-   - Shell scripts.
-3. What technologies, packages, or functions will students use?
-   - Bash shell.
-   - Basic Unix commands (`cd`, `ls`).
-   - Basic data manipulation commands (`head`, `cut`, `grep`).
-4. What terms or jargon will you define?
-   - Filesystem.
-   - Redirection.
-   - Pipe.
-   - Wildcard.
-5. What analogies will you use to explain concepts?
-   - Command-line pipeline is like chemistry pipeline.
-   - Shell scripts are like snippets of command history.
-6. What heuristics will help students understand things?
-   - Use filenames that are easy to match with tab completion and wildcards.
-   - Build pipelines step by step.
-7. What mistakes or misconceptions do you expect?
-   - The shell shows the same files and folders as the GUI interface they're used to.
-   - Definition vs. use of variables (especially loop variables).
-8. What datasets will you use?
-   - Dental records (reduced to region, date, and tooth).
+1. *What problem(s) will student learn how to solve?*
+   How to combine existing/legacy tools;
+   how to make analyses reproducible.
+2. *What techniques or concepts will students learn?*
+   History; pipes; shell scripts.
+3. *What technologies, packages, or functions will students use?*
+   Bash shell; basic Unix commands (`cd`, `ls`); basic data manipulation commands (`head`, `cut`, `grep`).
+4. *What terms or jargon will you define?*
+   Filesystem; redirection; pipe; wildcard.
+5. *What analogies will you use to explain concepts?*
+   Command-line pipeline is like chemistry pipeline;
+   shell scripts are like snippets of command history.
+6. *What heuristics will help students understand things?*
+   Use filenames that are easy to match with tab completion and wildcards;
+   build pipelines step by step.
+7. *What mistakes or misconceptions do you expect?*
+   That the shell shows the same files and folders as the GUI interface they're used to;
+   definition vs. use of variables (especially loop variables).
+8. *What datasets will you use?*
+   dental records.
 
 <!-- -------------------------------------------------------------------------------- -->
 
