@@ -51,7 +51,7 @@ The datasets are:
 - `path/to/dataset-1`: data set 1
 - `path/to/dataset-2`: data set 2
 
-## Step 6: Course outline
+## Step 6: Course overview
 
 **Course Description**
 
