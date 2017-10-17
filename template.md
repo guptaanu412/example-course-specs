@@ -1,4 +1,4 @@
-# Course Title
+Read the [example course specs](https://github.com/datacamp/example-course-specs) and complete these steps in the README below.
 
 ## Step 1: Brainstorming
 
