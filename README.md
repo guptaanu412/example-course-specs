@@ -19,11 +19,12 @@ this document describes a process based on evidence-based teaching practices:
 - Getting you to write sample exercises early lets DataCamp check that we can support everything you want your students to do.
 
 We use the design of our introduction to the Unix shell for data scientists as a running example (in italics).
-The steps are laid out in order of increasing detail,
+
+**Note: the steps are described in order of increasing detail,
 but the process itself is always iterative.
 You will frequently go back to revise earlier work
 as you learn something from your answer to a later question
-or realize that your initial plan isn't going to play out the way you first thought.
+or realize that your initial plan isn't going to play out the way you first thought.**
 
 Please copy [this template](template.md) to `README.md` in the root directory of your course repository
 and fill it in to design your own course.
@@ -62,34 +63,34 @@ You aren't expected to answer all of them,
 and you may pose and answer others if you and your CL think it's helpful,
 but you should always include a couple of answers to the first.
 
-1. *What problem(s) will student learn how to solve?*
+1. **What problem(s) will student learn how to solve?**
    E.g., "how to draw plots using `ggplot2`"
    or "how to forecast product demand".
 
-2. *What concepts and techniques will students learn?*
+2. **What concepts and techniques will students learn?**
    E.g., "the split-train-model-predict workflow"
    or "rolling back Git commits".
 
-3. *What technologies, packages, or functions will students use?*
+3. **What technologies, packages, or functions will students use?**
    E.g., "`ggplot2` for drawing plots".
 
-4. *What terms or jargon will you define?*
+4. **What terms or jargon will you define?**
    E.g., "boosting versus bagging"
    or "block/factor/sequential designs".
 
-5. *What analogies will you use to explain concepts?*
+5. **What analogies will you use to explain concepts?**
    E.g., "ggplots are like Lego for graphics".
    (See [Gelman & Nolan][teaching-statistics] for more ideas here.)
 
-6. *What heuristics will help students understand things?*
+6. **What heuristics will help students understand things?**
    E.g., "draw a simple plot then add elements one by one"
    or "don't use Holt-Winters if your demand spikes on holidays".
 
-7. *What mistakes or misconceptions do you expect?*
+7. **What mistakes or misconceptions do you expect?**
    E.g., "changing colors works differently if the color argument is inside an aesthetic or not"
    or "overfitting models to the data".
 
-8. *What datasets will you use?*
+8. **What datasets will you use?**
    E.g., "anything but the diamonds and mtcars datasets"
    or "something from the [UCI Archive][uci-archive]".
 
@@ -159,6 +160,9 @@ link to them and comment on how the course relates to them.
 
 <em>
 
+Our introduction to the Unix shell will help two learners,
+but won't be much use to a third:
+
 - [Jasmine](https://github.com/datacamp/learner-profiles#jasmine)
   has never used a command line shell.
   This course will give her a basic understanding of Unix
@@ -183,7 +187,7 @@ link to them and comment on how the course relates to them.
 
 The best way to make the goals in Step 1 firmer is
 to write one or two exercises that students will be able to do at the end of the course.
-Wrap-up exercises like this are called *summative assessments*,
+Wrap-up exercises like this are called **summative assessments**,
 and writing them early is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
 designers work backward from concrete examples of where their students are going.
@@ -195,7 +199,8 @@ so that the CL can check that our platform can do everything you need.
 
 <em>
 
-You have several dozen data files, each of which is formatted like this:
+As the final exercise in the Unix shell course,
+you are given several dozen data files, each of which is formatted like this:
 
 ```
 2013-11-05,deer,5
@@ -244,7 +249,7 @@ You have several dozen data files, each of which is formatted like this:
 
 ## Step 4: What will the student do along the way?
 
-*Formative assessments* are exercises done while learning is taking place
+**Formative assessments** are exercises done while learning is taking place
 that tell the student if she is making progress
 and give her a chance to exercise her new skills and knowledge.
 
@@ -268,6 +273,8 @@ Notes:
   you will do that in the next step.
 
 <em>
+
+Here are some of the exercises that learners will do in the Unix shell course.
 
 ### Manipulating Files and Directories
 
@@ -384,7 +391,7 @@ Note:
 
 <em>
 
-The chapter and lesson outline is:
+The chapter and lesson outline for the Unix shell course is:
 
 1. Manipulating Files and Directories
    1. What a shell is; how it compares to a graphical interface.
@@ -433,6 +440,8 @@ Checkin: course description, learning objectives, and prerequisites.
 Note: see the appendix for a discussion of how to write good learning objectives.
 
 <em>
+
+Here are the final deliverables for the design of the Unix shell course.
 
 **Course Description**
 
