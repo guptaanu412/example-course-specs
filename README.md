@@ -2,11 +2,11 @@
 
 ## Course Development Resources
 
-* Course administration page: <https://www.datacamp.com/teach/repositories/*course-id*>
+* Course administration page: <https://www.datacamp.com/teach/repositories/your-course-id>
 * Course development documentation: <https://www.datacamp.com/create/how>
 * Technical documentation: <https://www.datacamp.com/teach/documentation>
 
-<em>
+## Introduction
 
 Designing a good course is as hard as designing good software.
 To help you,
@@ -18,7 +18,7 @@ this document describes a process based on evidence-based teaching practices:
 - Everything from Step 2 onward goes into your final course, so there is no wasted effort.
 - Getting you to write sample exercises early lets DataCamp check that we can support everything you want your students to do.
 
-We use the design of our introduction to the Unix shell for data scientists as a running example.
+We use the design of our introduction to the Unix shell for data scientists as a running example (in italics).
 The steps are laid out in order of increasing detail,
 but the process itself is always iterative.
 You will frequently go back to revise earlier work
@@ -50,13 +50,9 @@ A typical breakdown is:
 - Chapter 4: 10-16 exercises
 - Chapter 5 (optional): 10-16 exercises
 
-</em>
-
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 1: Brainstorming
-
-<em>
 
 The first step is to throw together some rough ideas
 so that you and your CL can make sure your thoughts about the course are aligned.
@@ -103,7 +99,7 @@ but couple of hours of thinking at this stage can save days of rework later on.
 
 Checkin: a rough scope for the course that you have agreed with your CL.
 
-</em>
+<em>
 
 The questions and answers for the Unix shell course are:
 
@@ -128,11 +124,11 @@ The questions and answers for the Unix shell course are:
 8. *What datasets will you use?*
    dental records.
 
+</em>
+
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 2: Who is this course for?
-
-<em>
 
 "Beginner" and "expert" mean different things to different people,
 and many factors besides pre-existing knowledge influence who a course is suitable for.
@@ -161,7 +157,7 @@ Please do not copy the profiles into your course design;
 instead,
 link to them and comment on how the course relates to them.
 
-</em>
+<em>
 
 - [Jasmine](https://github.com/datacamp/learner-profiles#jasmine)
   has never used a command line shell.
@@ -179,11 +175,11 @@ link to them and comment on how the course relates to them.
   uses the tools that this course introduces on a daily basis,
   so he won't be interested in taking it.
 
+</em>
+
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 3: How far will this course get its students?
-
-<em>
 
 The best way to make the goals in Step 1 firmer is
 to write one or two exercises that students will be able to do at the end of the course.
@@ -197,7 +193,7 @@ Checkin: 1-2 exercises that use the skills the student is to learn.
 Note: be sure to include solutions with example code
 so that the CL can check that our platform can do everything you need.
 
-</em>
+<em>
 
 You have several dozen data files, each of which is formatted like this:
 
@@ -242,11 +238,11 @@ You have several dozen data files, each of which is formatted like this:
 > unique.sh ~/archive/*.csv ~/new/*.csv
 > ```
 
+</em>
+
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 4: What will the student do along the way?
-
-<em>
 
 *Formative assessments* are exercises done while learning is taking place
 that tell the student if she is making progress
@@ -271,7 +267,7 @@ Notes:
 - Do not worry about putting these exercises in order (yet):
   you will do that in the next step.
 
-</em>
+<em>
 
 ### Manipulating Files and Directories
 
@@ -362,11 +358,11 @@ Uses:
 - `cut`, `sort`, `uniq`
 - `#!`
 
+</em>
+
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 5: How are concepts connected?
-
-<em>
 
 In this stage,
 you put the formative assessments in a logical order,
@@ -386,7 +382,7 @@ Note:
 - You are likely to discover things you forgot to list earlier during this stage,
   so don't be surprised if you have to double back a few times.
 
-</em>
+<em>
 
 The chapter and lesson outline is:
 
@@ -417,11 +413,11 @@ The datasets are:
 - `./dental.csv`: two-column year and tooth data
 - `./data/*.csv`: seasonal dental data ('autumn.csv', 'spring.csv', 'summer.csv', 'winter.csv')
 
+</em>
+
 <!-- -------------------------------------------------------------------------------- -->
 
 ## Step 6: Course outline
-
-<em>
 
 You are now ready to create a high-level course overview containing:
 
@@ -436,7 +432,7 @@ Checkin: course description, learning objectives, and prerequisites.
 
 Note: see the appendix for a discussion of how to write good learning objectives.
 
-</em>
+<em>
 
 **Course Description**
 
@@ -465,6 +461,8 @@ and show you how to use them efficiently.
 **Prerequisites**
 
 None.
+
+</em>
 
 <!-- -------------------------------------------------------------------------------- -->
 
@@ -521,15 +519,12 @@ Its six levels and verbs often used in learning objectives at those levels are:
 6. Evaluation: using evidence to make judgments about the relative merits of ideas and materials
    (choose, rate, select).
 
-[abela-chart]: http://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
 [bloom]: https://en.wikipedia.org/wiki/Bloom's_taxonomy
-[concept-map]: http://third-bit.com/teaching/memory.html#concept-maps
 [datacamp-how]: https://www.datacamp.com/teach/documentation
 [huston-teaching]: https://www.amazon.com/Teaching-What-You-Dont-Know/dp/0674035801/
 [lang-teaching]: https://www.amazon.com/Small-Teaching-Everyday-Lessons-Learning/dp/1118944496/
 [learner-profiles]: http://third-bit.com/teaching/lessons.html#learner-profiles
 [profile-site]: https://github.com/datacamp/learner-profiles
-[swc-teaching]: https://swcarpentry.github.io/instructor-training/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
 [teaching-statistics]: https://www.amazon.com/Teaching-Statistics-Tricks-Andrew-Gelman/dp/0198572247/
 [uci-archive]: http://archive.ics.uci.edu/ml/index.php
