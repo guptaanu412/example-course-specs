@@ -1,12 +1,10 @@
-# *course-name* by *instructor-name*
+# Designing DataCamp Courses
 
-## Course development resources
+## Course Development Resources
 
-* Course admin page: https://www.datacamp.com/teach/repositories/ *course-id*
-* Course dev documentation: https://www.datacamp.com/create/how
-* Technical documentation: https://www.datacamp.com/teach/documentation
-
-## Designing DataCamp Courses
+* Course administration page: <https://www.datacamp.com/teach/repositories/*course-id*>
+* Course development documentation: <https://www.datacamp.com/create/how>
+* Technical documentation: <https://www.datacamp.com/teach/documentation>
 
 <em>
 
@@ -27,7 +25,8 @@ You will frequently go back to revise earlier work
 as you learn something from your answer to a later question
 or realize that your initial plan isn't going to play out the way you first thought.
 
-Please use [this template](template.md) as a starting point for designing your own courses.
+Please copy [this template](template.md) to `README.md` in the root directory of your course repository
+and fill it in to design your own course.
 For more information,
 please see "[How to create a DataCamp course][datacamp-how]"
 and the other documentation on our website.

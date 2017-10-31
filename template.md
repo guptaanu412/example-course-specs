@@ -1,4 +1,9 @@
-Read the [example course specs](https://github.com/datacamp/example-course-specs) and complete these steps in the README below.
+# *course-name* by *instructor-name*
+
+*Please read the [example course specs][course-specs]
+and complete these steps in the `README.md` file in your course repository.
+If you need assistance,
+please speak with your Curriculum Lead.*
 
 ## Step 1: Brainstorming
 
@@ -13,7 +18,7 @@ Read the [example course specs](https://github.com/datacamp/example-course-specs
 
 ## Step 2: Who is this course for?
 
-Link to [student profiles](https://github.com/datacamp/learner-profiles).
+Link to [student profiles][profile-site].
 
 * Student 1: discussion.
 * Student 2: discussion.
@@ -68,4 +73,5 @@ One-paragraph description of the course.
 - Prerequisite 1
 - Prerequisite 2
 
+[course-specs]: https://github.com/datacamp/example-course-specs
 [profile-site]: https://github.com/datacamp/learner-profiles
