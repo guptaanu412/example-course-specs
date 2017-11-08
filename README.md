@@ -369,7 +369,7 @@ Uses:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 5: How are concepts connected?
+## Step 5: How are concepts connected? (Course Outline)
 
 In this stage,
 you put the formative assessments in a logical order,
@@ -424,7 +424,7 @@ The datasets are:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 6: Course outline
+## Step 6: Course Overview
 
 You are now ready to create a high-level course overview containing:
 
