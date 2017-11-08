@@ -7,14 +7,13 @@ please speak with your Curriculum Lead.*
 
 ## Step 1: Brainstorming
 
-1. What problem(s) will student learn how to solve?
+1. What problem(s) will students learn how to solve?
 2. What techniques or concepts will students learn?
 3. What technologies, packages, or functions will students use?
 4. What terms or jargon will you define?
-5. What analogies will you use to explain concepts?
-6. What heuristics will help students understand things?
-7. What mistakes or misconceptions do you expect?
-8. What datasets will you use?
+5. What analogies or heuristics will you use?
+6. What mistakes or misconceptions do you expect?
+7. What datasets will you use?
 
 ## Step 2: Who is this course for?
 
