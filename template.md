@@ -1,4 +1,4 @@
-# Introduction to Using MongoDB for Data Science with Python
+# *course-name* by *instructor-name*
 
 *Please read the [example course specs][course-specs]
 and complete these steps in the `README.md` file in your course repository.
