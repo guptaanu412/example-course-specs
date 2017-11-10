@@ -1,4 +1,4 @@
-# *course-name* by *instructor-name*
+# Introduction to Using MongoDB for Data Science with Python
 
 *Please read the [example course specs][course-specs]
 and complete these steps in the `README.md` file in your course repository.
@@ -23,23 +23,27 @@ Link to [student profiles][profile-site].
 * Student 2: discussion.
 * Student 3: discussion.
 
-## Step 3: How far will this course get its students?
+## Step 3: What will learners do along the way?
 
-Exercise: description (can be point-form).
+Write full descriptions of a couple of significant exercises to show how far learners are likely to get.
 
-> **Solution**
->
-> Include sample code.
-
-## Step 4: What will the student do along the way?
-
-Exercise: description (can be point-form).
+### Title of Exercise
 
 > **Solution**
 >
 > Include sample code.
 
-## Step 5: How are the concepts connected?
+### Other exercises
+
+- Exercise title 1
+  - Point-form description of exercise
+  - Two or three bullets is enough
+
+- Exercise title 2
+  - Another point-form description
+  - Again, two or three bullets is enough
+
+## Step 4: How are the concepts connected?
 
 - Chapter 1
   - Lesson 1.1
@@ -55,7 +59,7 @@ The datasets are:
 - `path/to/dataset-1`: data set 1
 - `path/to/dataset-2`: data set 2
 
-## Step 6: Course overview
+## Step 5: Course overview
 
 **Course Description**
 

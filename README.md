@@ -183,21 +183,36 @@ but won't be much use to a third:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 3: How far will this course get its students?
+## Step 3: What will learners do along the way?
 
 The best way to make the goals in Step 1 firmer is
-to write one or two exercises that students will be able to do at the end of the course.
-Wrap-up exercises like this are called **summative assessments**,
-and writing them early is directly analogous to [test-driven development][tdd]:
+to write full descriptions of a couple of exercises
+that students will be able to do toward the end of the course.
+Writing exercises early is directly analogous to [test-driven development][tdd]:
 rather than working forward from a (probably ambiguous) set of learning objectives,
 designers work backward from concrete examples of where their students are going.
+Doing this also helps uncover technical requirements
+that might otherwise not be found until uncomfortably late in the lesson development process.
 
-Checkin: 1-2 exercises that use the skills the student is to learn.
+To complement the full exercise descriptions,
+you should also write brief point-form descriptions of one or two exercises per chapter
+to show how quickly you expect learners to progress.
+(Again,
+these serve as a good reality check on how much you're assuming,
+and help uncover technical requirements.)
+One way to create these "extra" exercises
+is to make a point-form list of the skills needed to solve the major exercises
+and create an exercise that targets each.
+
+Checkin: 1-2 fully explained exercises that use the skills the student is to learn,
+plus half a dozen point-form exercise outlines.
 
 Note: be sure to include solutions with example code
 so that the CL can check that our platform can do everything you need.
 
 <em>
+
+### Building a Tool to Find Unique Values in Columns
 
 As the final exercise in the Unix shell course,
 you are given several dozen data files, each of which is formatted like this:
@@ -231,6 +246,8 @@ you are given several dozen data files, each of which is formatted like this:
 > done
 > ```
 
+### Using Wildcards
+
 2. With one command,
    use `unique.sh` to find the unique species
    in all of the `.csv` files in the `~/archive` and `~/new` directories.
@@ -243,40 +260,9 @@ you are given several dozen data files, each of which is formatted like this:
 > unique.sh ~/archive/*.csv ~/new/*.csv
 > ```
 
-</em>
+### Other Exercises
 
-<!-- -------------------------------------------------------------------------------- -->
-
-## Step 4: What will the student do along the way?
-
-**Formative assessments** are exercises done while learning is taking place
-that tell the student if she is making progress
-and give her a chance to exercise her new skills and knowledge.
-
-To create your formative assessments,
-make a point-form list of the skills needed to solve the wrap-up exercise from Step 3
-and create a formative assessment for each.
-You can then itemize the extra skills those new exercises depend on,
-and repeat until you and your CL are comfortable with their scope.
-
-Checkin: 5-10 exercises that use the skills you intend to teach.
-These don't have to be fully written out:
-a couple of bullet points for each usually are enough
-to help you uncover dependencies you didn't realize you had.
-
-Notes:
-
-- These exercises will normally be included in the finished course.
-- They are **not** all of its exercises,
-  but rather milestones along the way (typically 1-2 per chapter).
-- Do not worry about putting these exercises in order (yet):
-  you will do that in the next step.
-
-<em>
-
-Here are some of the exercises that learners will do in the Unix shell course.
-
-### Manipulating Files and Directories
+**Manipulating Files and Directories**
 
 What is the output of the final `ls` command in the sequence shown below?
 
@@ -303,7 +289,7 @@ Uses:
 - paths
 - the special path `..`
 
-### Wildcards
+**Wildcards**
 
 How do you delete the `.out` output files in the `results` directory
 and the raw `.dat` files in the current directory
@@ -318,7 +304,7 @@ Uses:
 - paths
 - `*` and `?` wildcards
 
-### Tracing Pipes and Redirection
+**Tracing Pipes and Redirection**
 
 `dental.csv` contains:
 
@@ -345,14 +331,14 @@ Uses:
 - redirection
 - command flags
 
-### Selecting Data by Value
+**Selecting Data by Value**
 
 Write a command that selects *only* data in `dental.csv` from the years 2000, 2005, and 2010.
 
 Uses:
 - `grep` (with fixed text, not regualr expressions)
 
-### Shell Scripts
+**Shell Scripts**
 
 Fill in the blanks in `dates.sh`
 to select unique dates from the files
@@ -369,10 +355,10 @@ Uses:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 5: How are concepts connected?
+## Step 4: How are concepts connected?
 
 In this stage,
-you put the formative assessments in a logical order,
+you put the exercises in a logical order
 then derive a point-form outline for the entire course from them.
 This is also when you will consolidate the datasets your formative assessments have used.
 
@@ -424,9 +410,10 @@ The datasets are:
 
 <!-- -------------------------------------------------------------------------------- -->
 
-## Step 6: Course outline
+## Step 5: Course outline
 
-You are now ready to create a high-level course overview containing:
+You can now summarize everything you have created
+by writing a high-level course overview that consists of:
 
 - a one-paragraph description (i.e., a sales pitch to students)
 - half a dozen learning objectives
@@ -477,11 +464,11 @@ None.
 
 ## Conclusion
 
-This process is described as a one-way flow,
-but in practice you will loop back
+This process is described in sequence,
+but in practice you will loop back repeatedly
 as each stage informs you of something you overlooked.
 When you and your CL agree that your outline is done,
-you can copy what you wrote for Step 3-6 from your course repository's `README.md`
+you can copy what you wrote for Steps 3-5 from your course repository's `README.md`
 into `course.yml` and your chapters and carry on from there.
 When your course is finished,
 please take half an hour to update your outline
