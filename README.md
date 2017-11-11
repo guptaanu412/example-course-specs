@@ -1,5 +1,9 @@
 # Designing DataCamp Courses
 
+## THIS REPOSITORY HAS BEEN DEPRECATED.  PLEASE SEE `courses/design.md` IN HTTP://GITHUB.COM/DATACAMP/AUTHORING FOR THE ACTIVE VERSION.
+
+---
+
 ## Course Development Resources
 
 * Course administration page: <https://www.datacamp.com/teach/repositories/your-course-id>
