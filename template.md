@@ -1,7 +1,5 @@
 # *course-name* by *instructor-name*
 
-## THIS REPOSITORY HAS BEEN DEPRECATED.  PLEASE SEE `courses/design.md` IN HTTP://GITHUB.COM/DATACAMP/AUTHORING FOR THE ACTIVE VERSION.
-
 *Please read the [example course specs][course-specs]
 and complete these steps in the `README.md` file in your course repository.
 If you need assistance,
